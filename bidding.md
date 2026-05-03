@@ -1,12 +1,52 @@
 ## Bidding cheat-sheet
 
-#### Opening bids
+#### Hand Evaluation
+
+##### HCP
+
+High Card Points. A=4, K=3, Q=2, J=1
+
+##### LSDP
+
+Long Suit Distribution Points. LSDP for a given suit is defined as suit length minus 4. Those are then summed for all suits in player's hand.
+
+Example: 6-5-1-1 hand will have an LSDP of 3.
+
+##### SSDP
+
+Short Suit Distribution Points. Only used after a fit is found.
+
+| Suit Length   | SSDP |
+| ------------- | ---- |
+| 0 (void)      | 5    |
+| 1 (singleton) | 3    |
+| 2 (doubleton) | 1    |
+
+##### TP
+
+Total Points. 
+
+TP = HCP + LSDP. Applicable when no fit exists, or it's not found yet)
+
+TP = HCP + SSDP. Only applicable after a fit is found.
+
+Do not combine SSDP and LSDP.
+
+##### Advisory HCP and TP levels for Game and Slam
+
+- 25+ HCP = 3NT
+- 26+ TP = 4♥️/♠️
+- 28+ TP = 4♣️/♦️
+- 33+ HCP = 6NT
+- 37+ HCP = 7NT
+
+#### Opening Bids
 
 
 | Bid              | HCP   | Description                                                  |
 | ---------------- | ----- | ------------------------------------------------------------ |
-| 1♣️               | 12–21 | 3+ card ♣️ suit                                               |
-| 1♦️               | 12–21 | 4+♦️ **or** 2♣️ - 3♦️ - 4♥️ - 4♠️                                 |
+| 1♣️               | 12–21 | 3+♣️, 3-♦️, 4-♥️, 4-♠️                                           |
+| 1♦️               | 12–21 | 4+♦️ **or** 2♣️3♦️4♥️4♠️                                          |
 | 1♥️/♠️             | 12–21 | 5+♥️/♠️. Bid longer suit first. With equal lengths bid ♠️       |
 | 1NT              | 15–17 | Balanced or semi-balanced (4-3-3-3 or 5-3-3-2)               |
 | 2♣️               | 22+   | Any hand with 22+HCP **or** 16+ HCP with 9+ tricks           |
@@ -14,7 +54,7 @@
 | 2♥️/♠️<sup>A</sup> | 6–10  | 6 ♥️/♠️ **or** 5♥️/♠️ and a 4 card minor. 3- in the other major. |
 | 2NT              | 20–21 | Balanced or semi-balanced (4-3-3-3 or 5-3-3-2)               |
 | 3♣️/♦️/♥️/♠️         | 6–10  | 7 card suit                                                  |
-| 3NT              | 12-21 | Gambling. AKQxxxx (7+) in a minor suit                       |
+| 3NT<sup>A</sup>  | 9-15  | Gambling. AKQxxxx (7+) in ♣️/♦️. No outside A or K             |
 | 4♣️/♦️/♥️/♠️         | 5–10  | Preempt, 8 card suit                                         |
 | 5♣️/♦️             | 0–10  | Preempt, 9 card suit                                         |
 
@@ -24,16 +64,19 @@ Bids marked with <sup>A</sup> shall be alerted.
 
 <sup>RF</sup> denotes a round forcing bid (no immediate pass by partner, unless opener is guaranteed another chance to bid).
 
-#### Opening bids with NT hand
+When more than one bid is possible according to the table, the lowermost such row must be chosen. Examples: prioritize 1NT over 1♥️/♠️ if both are possible. Prioritize 1♥️/♠️ over 1♦️.
 
-With a balanced or semi-balanced hand, aim is to show partner HCP holdings. This may take 1 or two bid, as described:
+#### Opening Bids With NT Hand
 
-| Bid               | HCP   | Description  |
-| ----------------- | ----- | ------------ |
-| 1♣️/♦️/♥️/♠️ then 1NT | 12–14 | Weak NT      |
-| 1NT               | 15–17 | Standard     |
-| 1♣️/♦️/♥️/♠️ then 2NT | 18-19 | Strong NT    |
-| 2NT               | 20-21 | Super strong |
+With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partner HCP holdings. This may take either one or two bids, as described:
+
+| Bid                            | HCP   |
+| ------------------------------ | ----- |
+| 1♣️/♦️/♥️/♠️ then 1NT              | 12–14 |
+| 1NT                            | 15–17 |
+| 1♣️/♦️/♥️/♠️ then 2NT              | 18-19 |
+| 2NT                            | 20-21 |
+| 2♣️ then 2NT **or** 2♣️ then 3NT | 22+   |
 
 #### Responses
 
@@ -114,19 +157,7 @@ Most responses are only applicable in case of an unopposed bidding.
 |             |                          |                |                                                              |
 |             |                          |                |                                                              |
 
-Combined HCP levels
-
-- 25+ HCP = 3NT
-- 26+ TP = 4♥️/♠️
-- 28+ HCP = 4♣️/♦️
-- 33+ HCP = 6NT
-- 37+ HCP = 7NT
-
-
-
-
-
-#### Overcalls - TODO
+#### [TODO] Overcalls
 
 
 | Opponent | Overcall            | HCP   | Description                                                  |
@@ -156,11 +187,11 @@ Combined HCP levels
 
 #### Doubles
 
-All doubles are round forcing <sup>RF</sup> up to level 2.
+All doubles up to 2♠️ are round forcing <sup>RF</sup>.
 
 ##### Take-out double
 
-12+ HCP. Shortness in doubled suit. 3+ in other suits. With no shortness, do a trap pass instead. With 16-18HCP and a stopper bid 1NT, instead.
+12+ HCP. Shortness (2-) in doubled suit. 3+ in other suits. With no shortness, do a trap pass instead. With 16-18HCP and a stopper bid 1NT, instead.
 
 ##### Balancing double
 
@@ -172,12 +203,12 @@ All doubles are round forcing <sup>RF</sup> up to level 2.
 
 ##### Power double
 
-16+ HCP. Any take-out or negative double can transform into a power double if the doubling player bids again (incl. a second double).
+16+ HCP. Any take-out, balancing or negative double can transform into a power double if the doubling player bids again (incl. a second double).
 
 ##### Penalty double
 
 Penalty doubles are only used at level 3+ and preferably 4+.
-Responder may also transform take-out or power double into penalty double, when at level 3+.
+Responder may transform any take-out or power double into penalty double, when at level 3+.
 
 #### Conventions
 
@@ -201,11 +232,19 @@ Overcalls and responses are described in the table:
 
 After 1NT - 2♣️, opener's rebids are as follows:
 
-| Opener's Rebid | Description                  |
-| :------------- | :--------------------------- |
-| 2♦️             | Denies a 4-card major.       |
-| 2♥️             | 4 hearts, may have 4 spades. |
-| 2♠️             | 4 spades, denies 4 hearts.   |
+| Strong hand (1NT-2♦️) | Weak hand (2♣️)        | Description                |
+| :------------------- | --------------------- | :------------------------- |
+| 2♦️                   |                       | 3-♥️, 3-♠️                   |
+|                      | 2NT                   | Invite. 8-9HCP             |
+|                      | Color at level 3 or 4 | Smolen. 10+HCP. Unbalanced |
+|                      | 3NT                   | 10+ HCP, 4-♥️, 4-♠️          |
+| 2♥️                   |                       | 4♥️, may have 4♠️            |
+|                      | 2♠️                    | 4♠️                         |
+|                      | 2NT                   | Invite. 8-9HCP             |
+|                      | 3NT                   | 10+ HCP, 3-♥️, 3-♠️          |
+| 2♠️                   |                       | 4+♠️ 3-♥️                    |
+|                      | 2NT                   | Invite. 8-9HCP             |
+|                      | 3NT                   | 10+ HCP, 4-♥️, 3-♠️          |
 
 ##### Smolen
 
@@ -242,7 +281,7 @@ Opener then completes the transfer at level 2 (default), or at level 3 when hold
 
 After 3NT - 3♣️, opener's rebids are as follows:
 
-...
+[TODO] Expand.
 
 ##### Splinters
 
@@ -265,6 +304,14 @@ Over 1♥️/♠️ show 12HCP, 4+ fit by bidding 2NT<sup>A GF</sup>. Game forci
 
 ##### RCKB
 
-03-14-25-25Q
+Roman Key Card Blackwood. Used when partners agreed to a trump suit and is interested in slam. 4NT<sup>A RF</sup> bids asks partner how many key cards he holds. Key cards consist of all Aces plus the King of trumps. Responses:
 
-##### 
+| Asking bid         | Response       | Description                           |
+| ------------------ | -------------- | ------------------------------------- |
+| 4NT<sup>A RF</sup> |                |                                       |
+|                    | 5♣️<sup>A</sup> | 0 or 3 key cards                      |
+|                    | 5♦️<sup>A</sup> | 1 or 4 key cards                      |
+|                    | 5♥️<sup>A</sup> | 2 or 5 key cards. No Q in trump suit  |
+|                    | 5♠️<sup>A</sup> | 2 or 5 key cards. Has Q in trump suit |
+
+[TODO] Expand with asking for Kings and for trump Queen.
