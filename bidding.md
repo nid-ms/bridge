@@ -1,6 +1,6 @@
 # Bidding cheat-sheet
 
-## Hand Evaluation
+## Hand evaluation
 
 #### HCP
 
@@ -55,7 +55,7 @@ Do not combine SSDP and LSDP.
 - Prioritize playing NT contract with a balanced distribution in both hands, even when fit is found.
 - Mind vulnerability
 
-### Opening Bids
+### Opening bids
 
 Opening bid is the very first non-pass bid in the auction.
 
@@ -85,9 +85,9 @@ Opening bid is the very first non-pass bid in the auction.
 
 - When more than one bid is possible according to the table, the lowermost such row must be chosen. Examples: prioritize 1NT over 1♥️/♠️ if both are possible. Prioritize 1♥️/♠️ over 1♦️.
 
-### Opening Bids With NT Hand
+### Opening bids with a NT hand
 
-With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partner HCP holdings. This may take either one or two bids, as described:
+With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show HCP holdings. This may take either one or two bids, as described:
 
 | Bid                            | HCP   |
 | ------------------------------ | ----- |
@@ -137,8 +137,8 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 |             | <sup>PASSED</sup> 2NT    | 10-11          | Game invite. 2-♥️ Stopers in ♣️♦️♠️                              |
 |             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♥️.<br />Bid is not applicable for a passed hand. |
 |             | <sup>PASSED</sup> 3♥️     | 10-11          | Game invite. 3+♥️.                                            |
-|             | 3♠️<sup>GF</sup>          | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                |
-|             | 4♣️/♦️<sup>GF</sup>        | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                |
+|             | 3♠️<sup>GF</sup>          | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
+|             | 4♣️/♦️<sup>GF</sup>        | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
 |             | 4♥️                       | 0-             | 5+♥️                                                          |
 | 1♠️          |                          |                |                                                              |
 |             | PASS                     | 0-5            |                                                              |
@@ -147,16 +147,17 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 |             | 2♥️<sup>GF</sup>          | 12+            | 5+♥️                                                          |
 |             | 2♠️                       | 6-9            | 3+♠️                                                          |
 |             | <sup>PASSED</sup> 2NT    | 10-11          | Game invite. 2-♠️ Stopers in ♣️♦️♥️                              |
-|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♠️                            |
+|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♠️                               |
 |             | <sup>PASSED</sup> 3♠️     | 10-11          | Game invite. 3+♠️.                                            |
-|             | 4♣️/♦️/♥️<sup>GF</sup>      | 11-14          | [Splinter](#splinter). 4+♠️, 1- in bid suit                |
+|             | 4♣️/♦️/♥️<sup>GF</sup>      | 11-14          | [Splinter](#splinter). 4+♠️, 1- in bid suit                   |
 |             | 4♠️                       | 0+             | 5+♠️                                                          |
 | 1NT         |                          |                |                                                              |
 |             | PASS                     | 0-6            |                                                              |
-|             | 2♣️                       | 7+             | [Stayman](#stayman). Exploring for 4-4 major fit.         |
-|             | 2♦️/♥️/♠️/NT                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️/♦️                         |
+|             | 2♣️                       | 7+             | [Stayman](#stayman). Exploring for 4-4 major fit.            |
+|             | 2♦️/♥️/♠️/NT                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️/♦️                            |
 |             | 3NT                      | 10-16          | Balanced                                                     |
-|             | 4♦️/♥️<sup>GF</sup>        | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                 |
+|             | 4♣️                       | 12+            | [Gerber](#gerber)                                            |
+|             | 4♦️/♥️<sup>GF</sup>        | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
 | 2♣️          |                          |                |                                                              |
 |             | 2♦️                       | 0-7            | A = 2 controls, K = 1 Control.<br />Up to 2 controls         |
 |             | 2♥️<sup>GF</sup>          | 8+             | Exactly 2 controls                                           |
@@ -173,6 +174,7 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 |             | 3♣️                       | 4+             | Puppet Stayman. Exploring for 4-4 and 5-3 major fit          |
 |             | 3♦️/♥️/♠️                   | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️                              |
 |             | 3NT                      | 4-8            | No interest in finding a major fit (4-3-2-2)                 |
+|             | 4♣️                       | 12+            | [Gerber](#gerber)                                            |
 |             | 4♦️/♥️<sup>GF</sup>        | 5+             | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
 |             | 4NT                      | 11-12          | Quantitative invite to 6NT                                   |
 |             |                          |                |                                                              |
@@ -181,11 +183,11 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 
 ...
 
-### [TODO] Slam Exploration
+### [TODO] Slam exploration
 
 ...
 
-## [TODO] Overcalls (Competitive Bidding)
+## [TODO] Overcalls (competitive bidding)
 
 
 | Opponent | Overcall            | HCP   | Description                                                  |
@@ -280,7 +282,7 @@ After 1NT - 2♣️, opener's rebids are as follows:
 Convention is used after [Stayman](#stayman), only when holding enough values for a game and two major suits (5-4 or 6-4).
 After 1NT - 2♣️ - 2♦️, with 10+ HCP responder shows 5-4 in majors by bidding the four-card major with a jump-shift, effectively promising 5 in the other one. In case of a 6-4 in majors, responder makes a transfer at level 4. 
 
-| Weak hand (2♣️)    | Strong hand (1NT-2♦️) | Description              |
+| Weak Hand (2♣️)    | Strong Hand (1NT-2♦️) | Description              |
 | :---------------- | -------------------- | :----------------------- |
 | 3♥️<sup>A GF</sup> |                      | 10+HCP. Promises 4♥️, 5♠️  |
 |                   | 3NT                  | 2-♠️                      |
@@ -307,7 +309,7 @@ After 1NT, responder shows a 5+ suite and asks opener to bid it.
 
 Opener then completes the transfer at level 2 (default), or at level 3 (invite) when holding 17 HCP and 4+ fit. Responder raises to game when holding enough values.
 
-#### Texas Transfer
+#### Texas transfer
 
 After 1NT, responder shows a 6+ major suite and asks opener to bid it.
 
@@ -321,9 +323,22 @@ Opener then completes the transfer at level 4 or initiates [slam exploration](#s
 
 #### Puppet Stayman
 
-After 3NT - 3♣️, opener's rebids are as follows:
+After a 2NT opening, responder will often find themselves holding enough values for game.
+In such cases responder shall bid 3♣️<sup>A GF</sup>, thus initiating the puppet.
+Auction proceeds with an attempt to find a major fit (5-3 or 4-4) and have a Game declared by the strong hand:
 
-[TODO] Expand.
+| Strong Hand (2NT) | Weak Hand (3♣️) | Strong Hand (2NT) | Description                                                  |
+| :---------------- | -------------- | ----------------- | :----------------------------------------------------------- |
+| 3♦️<sup>A</sup>    |                |                   | 4♥️ **or** 4♠️                                                 |
+|                   | 4♣️<sup>A</sup> |                   | 4♥️ and 4♠️. Slam interest                                     |
+|                   |                | 4♦️<sup>A SF</sup> | Slam accept. Weak hand picks a major suit. Strong hand initiates [RKCB](#rkcb) |
+|                   |                | 4♥️/♠️              | 4♥️/♠️. To play                                                |
+|                   | 4♦️<sup>A</sup> |                   | 4♥️ and 4♠️. No slam interest                                  |
+|                   |                | 4♥️/♠️              | Fit                                                          |
+| 3♥️/♠️              |                |                   | 5+♥️                                                          |
+|                   | 3NT            |                   | No fit                                                       |
+|                   | 4♥️/♠️           |                   | Fit                                                          |
+| 3NT               |                |                   | 3-♥️, 3-♠️                                                     |
 
 #### Splinter
 
@@ -362,7 +377,7 @@ Roman Key Card Blackwood. Used when partners agreed to a trump suit and is inter
 |                    | 5♥️<sup>A</sup> | 2 or 5 key cards. No Q in trump suit  |
 |                    | 5♠️<sup>A</sup> | 2 or 5 key cards. Has Q in trump suit |
 
-##### Kings Ask
+##### Kings ask
 
 After any RKCB response, 5NT rebid asks for Kings. Partner then answers how many kings he holds:
 
@@ -374,15 +389,29 @@ After any RKCB response, 5NT rebid asks for Kings. Partner then answers how many
 |                    | 6♥️<sup>A</sup> | 2 Kings         |
 |                    | 6♠️<sup>A</sup> | 3 Kings         |
 
-##### Queen Ask
+##### Queen ask
 
 After a standard 0/3 or 1/4 response, the 4NT bidder may ask for Queen of trumps by bidding at the cheapest non-trump suit.
 
-| Asking bid                                                   | Response       | Description               |
-| ------------------------------------------------------------ | -------------- | ------------------------- |
-| Relay - any non-trump suite at the lowest possible level<sup>A RF</sup> | Trump suit     | No Q                      |
-|                                                              | 5NT            | Has Q, no side-suit K     |
-|                                                              | Non-trump suit | Has Q, has K in that suit |
+| Asking bid                                                   | Response                   | Description               |
+| ------------------------------------------------------------ | -------------------------- | ------------------------- |
+| Relay - any non-trump suite at the lowest possible level<sup>A RF</sup> | Trump suit<sup>A</sup>     | No Q                      |
+|                                                              | 5NT<sup>A</sup>            | Has Q, no side-suit K     |
+|                                                              | Non-trump suit<sup>A</sup> | Has Q, has K in that suit |
+
+#### Gerber
+
+Immediate 4♣️<sup>A GF</sup> as a response to a natural 1NT or 2NT opening. Asking for Aces. Responses<sup>A</sup> follow the pattern 04-1-2-3.
+
+| Asking bid        | Response        | Description |
+| ----------------- | --------------- | ----------- |
+| 4C<sup>A GF</sup> |                 |             |
+|                   | 4♦️<sup>A</sup>  | 0 or 4 Aces |
+|                   | 4♥️<sup>A</sup>  | 1 Ace       |
+|                   | 4♠️<sup>A</sup>  | 2 Aces      |
+|                   | 4NT<sup>A</sup> | 3 Aces      |
+
+Optional follow-up 5♣️<sup>A RF</sup> asking for Kings. Responses follow the same pattern: 04-1-2-3.
 
 #### Multi-Landy
 
@@ -390,11 +419,11 @@ Multi-Landy utilizes an artificial overcall bid at the 2nd level after opponents
 All bids are artificial and shall be alerted <sup>A</sup>.
 Overcalls and responses are described in the table:
 
-| Overcall            | Description                 |
-| :------------------ | :-------------------------- |
-| 2♣️ <sup>A RF</sup>  | At least 5-4 in majors      |
-| 2♦️ <sup>A RF</sup>  | 6+ major, 3- in other suits |
-| 2♥️ <sup>A</sup>     | 5+♥️ and 4+ minor            |
-| 2♠️ <sup>A</sup>     | 5+♠️ and 4+ minor            |
-| 2NT <sup>A RF</sup> | 5+♣️ and 5+♦️                 |
+| Overcall           | Description                 |
+| :----------------- | :-------------------------- |
+| 2♣️ <sup>A RF</sup> | At least 5-4 in majors      |
+| 2♦️ <sup>A RF</sup> | 6+ major, 3- in other suits |
+| 2♥️ <sup>A</sup>    | 5+♥️ and 4+ minor            |
+| 2♠️ <sup>A</sup>    | 5+♠️ and 4+ minor            |
+| 2NT<sup>A RF</sup> | 5+♣️ and 5+♦️                 |
 
