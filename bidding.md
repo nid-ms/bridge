@@ -71,7 +71,7 @@ Opening bid is the very first non-pass bid in the auction.
 | 2♥️/♠️<sup>A</sup>      | 6–10  | 6 ♥️/♠️ **or** 5♥️/♠️ and a 4 card minor. 3- in the other major. |
 | 2NT                   | 20–21 | Balanced or semi-balanced (4-3-3-3 or 5-3-3-2)               |
 | 3♣️/♦️/♥️/♠️              | 6–10  | 7 card suit                                                  |
-| 3NT<sup>A</sup>       | 9-15  | [Gambling](####Gambling). AKQxxxx (7+) in ♣️/♦️. No outside A or K |
+| 3NT<sup>A</sup>       | 9-15  | [Gambling](#gambling). AKQxxxx (7+) in ♣️/♦️. No outside A or K |
 | 4♣️/♦️/♥️/♠️              | 5–10  | Preempt, 8 card suit                                         |
 | 5♣️/♦️<sup>NONVUL</sup> | 0–10  | Preempt, 9 card suit                                         |
 
@@ -135,10 +135,10 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 |             | 2♣️/♦️<sup>GF</sup>        | 12+            | 4+♣️/♦️                                                        |
 |             | 2♥️                       | 6-9            | 3+♥️                                                          |
 |             | <sup>PASSED</sup> 2NT    | 10-11          | Game invite. 2-♥️ Stopers in ♣️♦️♠️                              |
-|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](####Jacoby-2NT). 4+♥️.<br />Bid is not applicable for a passed hand. |
+|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♥️.<br />Bid is not applicable for a passed hand. |
 |             | <sup>PASSED</sup> 3♥️     | 10-11          | Game invite. 3+♥️.                                            |
-|             | 3♠️<sup>GF</sup>          | 11-14          | [Splinter](####Splinter). 4+♥️, 1- in bid suit                |
-|             | 4♣️/♦️<sup>GF</sup>        | 11-14          | [Splinter](####Splinter). 4+♥️, 1- in bid suit                |
+|             | 3♠️<sup>GF</sup>          | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                |
+|             | 4♣️/♦️<sup>GF</sup>        | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                |
 |             | 4♥️                       | 0-             | 5+♥️                                                          |
 | 1♠️          |                          |                |                                                              |
 |             | PASS                     | 0-5            |                                                              |
@@ -147,16 +147,16 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 |             | 2♥️<sup>GF</sup>          | 12+            | 5+♥️                                                          |
 |             | 2♠️                       | 6-9            | 3+♠️                                                          |
 |             | <sup>PASSED</sup> 2NT    | 10-11          | Game invite. 2-♠️ Stopers in ♣️♦️♥️                              |
-|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](####Jacoby-2NT). 4+♠️                            |
+|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♠️                            |
 |             | <sup>PASSED</sup> 3♠️     | 10-11          | Game invite. 3+♠️.                                            |
-|             | 4♣️/♦️/♥️<sup>GF</sup>      | 11-14          | [Splinter](####Splinter). 4+♠️, 1- in bid suit                |
+|             | 4♣️/♦️/♥️<sup>GF</sup>      | 11-14          | [Splinter](#splinter). 4+♠️, 1- in bid suit                |
 |             | 4♠️                       | 0+             | 5+♠️                                                          |
 | 1NT         |                          |                |                                                              |
 |             | PASS                     | 0-6            |                                                              |
-|             | 2♣️                       | 7+             | [Stayman](####Stayman). Exploring for 4-4 major fit.         |
-|             | 2♦️/♥️/♠️/NT                | 0+             | [Transfer](####Transfer). 5+ ♥️/♠️/♣️/♦️                         |
+|             | 2♣️                       | 7+             | [Stayman](#stayman). Exploring for 4-4 major fit.         |
+|             | 2♦️/♥️/♠️/NT                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️/♦️                         |
 |             | 3NT                      | 10-16          | Balanced                                                     |
-|             | 4♦️/♥️<sup>GF</sup>        | 10+            | [Texas transfer](####Texas-transfer). 6+ ♥️/♠️                 |
+|             | 4♦️/♥️<sup>GF</sup>        | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                 |
 | 2♣️          |                          |                |                                                              |
 |             | 2♦️                       | 0-7            | A = 2 controls, K = 1 Control.<br />Up to 2 controls         |
 |             | 2♥️<sup>GF</sup>          | 8+             | Exactly 2 controls                                           |
@@ -171,9 +171,9 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 |             | 4♥️/♠️                     | 6-9 **or** 16+ | 6-9+ HCP and 4+ fit **or** 16+ HCP and 2+ fit                |
 | 2NT         |                          |                |                                                              |
 |             | 3♣️                       | 4+             | Puppet Stayman. Exploring for 4-4 and 5-3 major fit          |
-|             | 3♦️/♥️/♠️                   | 0+             | [Transfer](####Transfer). 5+ ♥️/♠️/♣️                           |
+|             | 3♦️/♥️/♠️                   | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️                              |
 |             | 3NT                      | 4-8            | No interest in finding a major fit (4-3-2-2)                 |
-|             | 4♦️/♥️<sup>GF</sup>        | 5+             | [Texas transfer](####Texas-transfer). 6+ ♥️/♠️                 |
+|             | 4♦️/♥️<sup>GF</sup>        | 5+             | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
 |             | 4NT                      | 11-12          | Quantitative invite to 6NT                                   |
 |             |                          |                |                                                              |
 
@@ -191,19 +191,19 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 | Opponent | Overcall            | HCP   | Description                                                  |
 | -------- | ------------------- | ----- | ------------------------------------------------------------ |
 | 1♣️/♦️     |                     |       |                                                              |
-|          | X                   | 12+   | [Take-out double](####Take-out double), 2- in suite **or**<br />Power double 16+ HCP. |
+|          | X                   | 12+   | [Take-out double](#take-out-double), 2- in suite **or**<br />Power double 16+ HCP. |
 |          | 1♥️/♠️                | 7+    | Natural, 5+ suit                                             |
 |          | 1NT                 | 16-18 | Balanced. Stopper in the bid suit                            |
 |          | 2♣️/♦️<sup>A RF</sup> | 0-5   | Michaels cue bid. 5+♥️ and 5+♠️ [TODO] review or delete        |
 |          |                     |       |                                                              |
 |          | 2NT<sup>A RF</sup>  |       | Unusual 2NT. At least 5♥️ and 5 of the unbid minor suit       |
 | 1♥️/♠️     |                     |       |                                                              |
-|          | X                   | 12+   | [Take-out double](####Take-out double), 2- in suite **or**<br />Power double 16+ HCP. |
+|          | X                   | 12+   | [Take-out double](#take-out-double), 2- in suite **or**<br />Power double 16+ HCP. |
 |          | 2NT                 |       | 5+♣️ and 5+♦️                                                  |
 |          |                     |       | 1                                                            |
 | 1NT      |                     |       |                                                              |
 |          | X                   | 16-18 | Balanced.                                                    |
-|          | 2♣️/♦️/♥️/♠️/NT         |       | [Multi-Landy](####Multi-Landy)                               |
+|          | 2♣️/♦️/♥️/♠️/NT         |       | [Multi-Landy](#multi-landy)                               |
 | ...      |                     |       |                                                              |
 
 ## Doubles
@@ -216,7 +216,7 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), aim is to show partn
 
 12+ HCP. Shortness (2-) in doubled suit. 3+ in other suits. With no shortness, do a trap pass instead. With 16-18HCP and a stopper bid 1NT, instead.
 
-May later turn out to be a [Power double](####Power double).
+May later turn out to be a [Power double](#power-double).
 
 Responses to take-out double up to level 2:
 
@@ -243,7 +243,7 @@ Also possible by a previously passed hand<sup>PASSED</sup> at level 2 when partn
 
 6+ HCP. Over 1 from partner and 1 overcall from opponent, shows exactly 4 cards in all unbid majors. Might have a 5-card ♥️only in 1♣️/♦️ - 1♠️ scenario with 9- HCP, since bidding 2♥️ requires 10HCP.
 
-May later turn out to be a [Power double](####Power double).
+May later turn out to be a [Power double](#power-double).
 
 #### Power double
 
@@ -265,7 +265,7 @@ After 1NT - 2♣️, opener's rebids are as follows:
 | :------------------- | --------------------- | :------------------------- |
 | 2♦️                   |                       | 3-♥️, 3-♠️                   |
 |                      | 2NT                   | Invite. 8-9HCP             |
-|                      | Color at level 3 or 4 | Smolen. 10+HCP. Unbalanced |
+|                      | Color at level 3 or 4 | [Smolen](#smolen). 10+HCP. Unbalanced |
 |                      | 3NT                   | 10+ HCP, 4-♥️, 4-♠️          |
 | 2♥️                   |                       | 4♥️, may have 4♠️            |
 |                      | 2♠️                    | 4♠️                         |
@@ -277,7 +277,7 @@ After 1NT - 2♣️, opener's rebids are as follows:
 
 #### Smolen
 
-Convention is used after Stayman, only when holding enough values for a game and two major suits (5-4 or 6-4).
+Convention is used after [Stayman](#stayman), only when holding enough values for a game and two major suits (5-4 or 6-4).
 After 1NT - 2♣️ - 2♦️, with 10+ HCP responder shows 5-4 in majors by bidding the four-card major with a jump-shift, effectively promising 5 in the other one. In case of a 6-4 in majors, responder makes a transfer at level 4. 
 
 | Weak hand (2♣️)    | Strong hand (1NT-2♦️) | Description              |
@@ -317,7 +317,7 @@ After 1NT, responder shows a 6+ major suite and asks opener to bid it.
 |        | 4♦️<sup>A GF</sup> | 6+ ♥️        |
 |        | 4♥️<sup>A GF</sup> | 6+ ♠️        |
 
-Opener then completes the transfer at level 4 or initiates [slam exploration](###Slam-Exploration).
+Opener then completes the transfer at level 4 or initiates [slam exploration](#slam-exploration).
 
 #### Puppet Stayman
 
@@ -398,4 +398,3 @@ Overcalls and responses are described in the table:
 | 2♠️ <sup>A</sup>     | 5+♠️ and 4+ minor            |
 | 2NT <sup>A RF</sup> | 5+♣️ and 5+♦️                 |
 
-#### 
