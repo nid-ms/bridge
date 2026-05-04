@@ -68,7 +68,7 @@ Opening bid is the very first non-pass bid in the auction.
 | 1NT                   | 15–17 | Balanced or semi-balanced (4-3-3-3 or 5-3-3-2)               |
 | 2♣️<sup>A RF</sup>     | 22+   | Any hand with 22+HCP **or** 16+ HCP with 9+ tricks           |
 | 2♦️<sup>A</sup>        | 6-10  | 5♥️ and 4♠️ **or** 5♠️ and 4♥️                                   |
-| 2♥️/♠️<sup>A</sup>      | 6–10  | 6 ♥️/♠️ **or** 5♥️/♠️ and a 4 card minor. 3- in the other major. |
+| 2♥️/♠️                  | 6–10  | 6 ♥️/♠️ ~~**or** 5♥️/♠️ and a 4 card minor. 3- in the other major.~~ |
 | 2NT                   | 20–21 | Balanced or semi-balanced (4-3-3-3 or 5-3-3-2)               |
 | 3♣️/♦️/♥️/♠️              | 6–10  | 7 card suit                                                  |
 | 3NT<sup>A</sup>       | 9-15  | [Gambling](#gambling). AKQxxxx (7+) in ♣️/♦️. No outside A or K |
@@ -103,81 +103,83 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 - <sup>PASSED</sup> denotes a hand that's already been passed once, making it HCP-restricted. This may result in the same response meaning different things for a passed hand, compared to a non-passed one.
 
 
-| Opening Bid | Response                 | HCP            | Description                                                  |
-| ----------- | ------------------------ | -------------- | ------------------------------------------------------------ |
-| 1♣️          |                          |                |                                                              |
-|             | PASS                     | 0-5            |                                                              |
-|             | 1♦️/♥️/♠️<sup>RF</sup>      | 6+             | 4+♦️/♥️/♠️. Bid longest suit first. With 4-4 bid lower, with 5-5 higher. Prioritize over fitting partner in minor. |
-|             | 1NT                      | 6-9            | no 4+ major                                                  |
-|             | 2♣️<sup>RF</sup>          | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
-|             | 2♦️/♥️/♠️                   | 6-10           | 6+ suit. Preempt                                             |
-|             | 2NT                      | 10-11          | no 4+ major                                                  |
-|             | 3♣️                       | 0-6            | Preempt                                                      |
-|             | 3NT                      | 13+            | Balanced, no 4+ major                                        |
-|             | 4♥️/♠️                     |                | Unbalanced weak hand. No slam interest                       |
-| 1♦️          |                          |                |                                                              |
-|             | PASS                     | 0-5            |                                                              |
-|             | 1♥️/♠️<sup>RF</sup>        | 6+             | 4+♥️/♠️. Bid longer suit first. With 4-4 bid lower, with 5-5 higher.<br />Prioritize over fitting partner in minor. |
-|             | 1NT                      | 6-9            | no 4+ major                                                  |
-|             | <sup>PASSED</sup> 2♣️     | 4-11           | 6+♣️, 3-♥️, 3-♠️. Non-forcing                                   |
-|             | 2♣️<sup>GF</sup>          | 13+            | 4+♣️, no 4+♥️/♠️                                                |
-|             | 2♦️                       | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
-|             | 2♥️/♠️                     | 6-10           | 6+ suit. Preempt                                             |
-|             | 2NT                      | 10-11          | no 4+ major                                                  |
-|             | 3♦️                       | 0-6            |                                                              |
-|             | 3NT                      | 13+            | Balanced, no 4+ major                                        |
-|             | 4♥️/♠️                     |                | Unbalanced weak hand. No slam interest                       |
-| 1♥️          |                          |                |                                                              |
-|             | PASS                     | 0-5            |                                                              |
-|             | 1♠️<sup>RF</sup>          | 6+             | 4+♠️                                                          |
-|             | 1NT<sup>RF</sup>         | 6+             | 3-♠️                                                          |
-|             | <sup>PASSED</sup> 2♣️/♦️   | 4-11           | 6+♣️/♦️, 3-♥️, 3-♠️. Non-forcing                                 |
-|             | 2♣️/♦️<sup>GF</sup>        | 12+            | 4+♣️/♦️                                                        |
-|             | 2♥️                       | 6-9            | 3+♥️                                                          |
-|             | <sup>PASSED</sup> 2NT    | 10-11          | Game invite. 2-♥️ Stopers in ♣️♦️♠️                              |
-|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♥️.<br />Bid is not applicable for a passed hand. |
-|             | <sup>PASSED</sup> 3♥️     | 10-11          | Game invite. 3+♥️.                                            |
-|             | 3♠️<sup>GF</sup>          | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
-|             | 4♣️/♦️<sup>GF</sup>        | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
-|             | 4♥️                       | 0-             | 5+♥️                                                          |
-| 1♠️          |                          |                |                                                              |
-|             | PASS                     | 0-5            |                                                              |
-|             | 1NT<sup>RF</sup>         | 6+             | 3-♠️                                                          |
-|             | 2♣️/♦️<sup>GF</sup>        | 12+            | 4+♣️/♦️                                                        |
-|             | 2♥️<sup>GF</sup>          | 12+            | 5+♥️                                                          |
-|             | 2♠️                       | 6-9            | 3+♠️                                                          |
-|             | <sup>PASSED</sup> 2NT    | 10-11          | Game invite. 2-♠️ Stopers in ♣️♦️♥️                              |
-|             | 2NT<sup>GF</sup>         | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♠️                               |
-|             | <sup>PASSED</sup> 3♠️     | 10-11          | Game invite. 3+♠️.                                            |
-|             | 4♣️/♦️/♥️<sup>GF</sup>      | 11-14          | [Splinter](#splinter). 4+♠️, 1- in bid suit                   |
-|             | 4♠️                       | 0+             | 5+♠️                                                          |
-| 1NT         |                          |                |                                                              |
-|             | PASS                     | 0-6            |                                                              |
-|             | 2♣️                       | 7+             | [Stayman](#stayman). Exploring for 4-4 major fit.            |
-|             | 2♦️/♥️/♠️/NT                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️/♦️                            |
-|             | 3NT                      | 10-16          | Balanced                                                     |
-|             | 4♣️                       | 12+            | [Gerber](#gerber)                                            |
-|             | 4♦️/♥️<sup>GF</sup>        | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
-| 2♣️          |                          |                |                                                              |
-|             | 2♦️                       | 0-7            | A = 2 controls, K = 1 Control.<br />Up to 2 controls         |
-|             | 2♥️<sup>GF</sup>          | 8+             | Exactly 2 controls                                           |
-|             | 2♠️<sup>GF</sup>          | 8+             | Exactly 3 controls                                           |
-|             | 2NT<sup>GF</sup>         | 8+             | Exactly 4 controls                                           |
-| 2♦️          |                          |                |                                                              |
-|             | 2♥️/♠️                     | 0+             | Better major                                                 |
-| 2♥️/♠️        |                          |                |                                                              |
-|             | 2♠️/3♣️/3♦️/3♥️<sup>RF</sup> | 16+            | 5+ suit. Round forcing.                                      |
-|             | 3♥️/♠️                     | 6-9            | Preempt                                                      |
-|             | 3NT                      | 16+            | Stoppers in all other suits                                  |
-|             | 4♥️/♠️                     | 6-9 **or** 16+ | 6-9+ HCP and 4+ fit **or** 16+ HCP and 2+ fit                |
-| 2NT         |                          |                |                                                              |
-|             | 3♣️                       | 4+             | Puppet Stayman. Exploring for 4-4 and 5-3 major fit          |
-|             | 3♦️/♥️/♠️                   | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️                              |
-|             | 3NT                      | 4-8            | No interest in finding a major fit (4-3-2-2)                 |
-|             | 4♣️                       | 12+            | [Gerber](#gerber)                                            |
-|             | 4♦️/♥️<sup>GF</sup>        | 5+             | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
-|             | 4NT                      | 11-12          | Quantitative invite to 6NT                                   |
-|             |                          |                |                                                              |
+| Opening Bid | Response              | HCP            | Description                                                  |
+| ----------- | --------------------- | -------------- | ------------------------------------------------------------ |
+| 1♣️          |                       |                |                                                              |
+|             | PASS                  | 0-5            |                                                              |
+|             | 1♦️/♥️/♠️<sup>RF</sup>   | 6+             | 4+♦️/♥️/♠️. Bid longest suit first. With 4-4 bid lower, with 5-5 higher. Prioritize over fitting partner in minor. |
+|             | 1NT                   | 6-9            | no 4+ major                                                  |
+|             | 2♣️<sup>RF</sup>       | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
+|             | 2♦️/♥️/♠️                | 6-10           | 6+ suit. Preempt                                             |
+|             | 2NT                   | 10-11          | no 4+ major                                                  |
+|             | 3♣️                    | 0-6            | Preempt                                                      |
+|             | 3NT                   | 13+            | Balanced, no 4+ major                                        |
+|             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest                       |
+| 1♦️          |                       |                |                                                              |
+|             | PASS                  | 0-5            |                                                              |
+|             | 1♥️/♠️<sup>RF</sup>     | 6+             | 4+♥️/♠️. Bid longer suit first. With 4-4 bid lower, with 5-5 higher.<br />Prioritize over fitting partner in minor. |
+|             | 1NT                   | 6-9            | no 4+ major                                                  |
+|             | <sup>PASSED</sup> 2♣️  | 4-11           | 6+♣️, 3-♥️, 3-♠️. Non-forcing                                   |
+|             | 2♣️<sup>GF</sup>       | 13+            | 4+♣️, no 4+♥️/♠️                                                |
+|             | 2♦️                    | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
+|             | 2♥️/♠️                  | 6-10           | 6+ suit. Preempt                                             |
+|             | 2NT                   | 10-11          | no 4+ major                                                  |
+|             | 3♦️                    | 0-6            |                                                              |
+|             | 3NT                   | 13+            | Balanced, no 4+ major                                        |
+|             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest                       |
+| 1♥️          |                       |                |                                                              |
+|             | PASS                  | 0-5            |                                                              |
+|             | 1♠️<sup>RF</sup>       | 6+             | 4+♠️                                                          |
+|             | 1NT<sup>RF</sup>      | 6+             | 3-♠️                                                          |
+|             | <sup>PASSED</sup> 2♣️  | 10-11          | [Drury](#drury). 3+♥️                                         |
+|             | 2♣️/♦️<sup>GF</sup>     | 12+            | 4+♣️/♦️                                                        |
+|             | 2♥️                    | 6-9            | 3+♥️                                                          |
+|             | <sup>PASSED</sup> 2NT | 10-11          | Game invite. 2-♥️ Stopers in ♣️♦️♠️                              |
+|             | 2NT<sup>GF</sup>      | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♥️.<br />Bid is not applicable for a passed hand. |
+|             | <sup>PASSED</sup> 3♥️  | 10-11          | Game invite. 3+♥️.                                            |
+|             | 3♠️<sup>GF</sup>       | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
+|             | 4♣️/♦️<sup>GF</sup>     | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
+|             | 4♥️                    | 0-             | 5+♥️                                                          |
+| 1♠️          |                       |                |                                                              |
+|             | PASS                  | 0-5            |                                                              |
+|             | 1NT<sup>RF</sup>      | 6+             | 3-♠️                                                          |
+|             | <sup>PASSED</sup> 2♣️  | 10-11          | [Drury](#drury). 3+♠️                                         |
+|             | 2♣️/♦️<sup>GF</sup>     | 12+            | 4+♣️/♦️                                                        |
+|             | 2♥️<sup>GF</sup>       | 12+            | 5+♥️                                                          |
+|             | 2♠️                    | 6-9            | 3+♠️                                                          |
+|             | <sup>PASSED</sup> 2NT | 10-11          | Game invite. 2-♠️ Stopers in ♣️♦️♥️                              |
+|             | 2NT<sup>GF</sup>      | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♠️                               |
+|             | <sup>PASSED</sup> 3♠️  | 10-11          | Game invite. 3+♠️.                                            |
+|             | 4♣️/♦️/♥️<sup>GF</sup>   | 11-14          | [Splinter](#splinter). 4+♠️, 1- in bid suit                   |
+|             | 4♠️                    | 0+             | 5+♠️                                                          |
+| 1NT         |                       |                |                                                              |
+|             | PASS                  | 0-6            |                                                              |
+|             | 2♣️                    | 7+             | [Stayman](#stayman). Exploring for 4-4 major fit.            |
+|             | 2♦️/♥️/♠️/NT             | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️/♦️                            |
+|             | 3NT                   | 10-16          | Balanced                                                     |
+|             | 4♣️                    | 12+            | [Gerber](#gerber)                                            |
+|             | 4♦️/♥️<sup>GF</sup>     | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
+| 2♣️          |                       |                |                                                              |
+|             | 2♦️                    | 0-7            | A = 2 controls, K = 1 Control.<br />Up to 2 controls         |
+|             | 2♥️<sup>GF</sup>       | 8+             | Exactly 2 controls                                           |
+|             | 2♠️<sup>GF</sup>       | 8+             | Exactly 3 controls                                           |
+|             | 2NT<sup>GF</sup>      | 8+             | Exactly 4 controls                                           |
+| 2♦️          |                       |                |                                                              |
+|             | 2♥️/♠️                  | 0+             | Better major                                                 |
+| 2♥️/♠️        |                       |                |                                                              |
+|             | 2NT<sup>A RF</sup>    | 17+            | Asks partner to either show an outside Ace or King, or signoff. |
+|             | New suit<sup>RF</sup> | 16+            | 6+ suit or 5+ suit very strong                               |
+|             | 3♥️/♠️                  | 6-9            | 2+ fit. Preempt.                                             |
+|             | 3NT                   | 16+            | Stoppers in all other suits                                  |
+|             | 4♥️/♠️                  | 6-9 **or** 16+ | 6-9+ HCP and 4+ fit **or** 16+ HCP and 2+ fit                |
+| 2NT         |                       |                |                                                              |
+|             | 3♣️                    | 4+             | Puppet Stayman. Exploring for 4-4 and 5-3 major fit          |
+|             | 3♦️/♥️/♠️                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️                              |
+|             | 3NT                   | 4-8            | No interest in finding a major fit (4-3-2-2)                 |
+|             | 4♣️                    | 12+            | [Gerber](#gerber)                                            |
+|             | 4♦️/♥️<sup>GF</sup>     | 5+             | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
+|             | 4NT                   | 11-12          | Quantitative invite to 6NT                                   |
+|             |                       |                |                                                              |
 
 ### [TODO] Re-announces by Opener
 
@@ -354,6 +356,10 @@ A double jump-shift response to 1♥️/♠️ shows 4+ fit and shortness (1-) i
 |             | 4♣️<sup>GF</sup> | 4+♠️, 1-♣️    |
 |             | 4♦️<sup>GF</sup> | 4+♠️, 1-♦️    |
 |             | 4♥️<sup>GF</sup> | 4+♠️, 1-♥️    |
+
+#### Drury
+
+[TODO]
 
 #### Jacoby 2NT
 
