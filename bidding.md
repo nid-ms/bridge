@@ -195,20 +195,23 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 | Opponent | Overcall            | HCP   | Description                                                  |
 | -------- | ------------------- | ----- | ------------------------------------------------------------ |
 | 1♣️/♦️     |                     |       |                                                              |
-|          | X                   | 12+   | [Take-out double](#take-out-double), 2- in suite **or**<br />Power double 16+ HCP. |
+|          | X                   | 12+   | [Take-out double](#take-out-double), 2- in suite (or Power double, 16+ HCP). |
 |          | 1♥️/♠️                | 7+    | Natural, 5+ suit                                             |
 |          | 1NT                 | 16-18 | Balanced. Stopper in the bid suit                            |
 |          | 2♣️/♦️<sup>A RF</sup> | 0-5   | Michaels cue bid. 5+♥️ and 5+♠️ [TODO] review or delete        |
 |          |                     |       |                                                              |
 |          | 2NT<sup>A RF</sup>  |       | Unusual 2NT. At least 5♥️ and 5 of the unbid minor suit       |
 | 1♥️/♠️     |                     |       |                                                              |
-|          | X                   | 12+   | [Take-out double](#take-out-double), 2- in suite **or**<br />Power double 16+ HCP. |
+|          | X                   | 12+   | [Take-out double](#take-out-double), 2- in suite (or Power double, 16+ HCP). |
 |          | 2NT                 |       | 5+♣️ and 5+♦️                                                  |
 |          |                     |       | 1                                                            |
 | 1NT      |                     |       |                                                              |
 |          | X                   | 16-18 | Balanced.                                                    |
-|          | 2♣️/♦️/♥️/♠️/NT         |       | [Multi-Landy](#multi-landy)                               |
+|          | 2♣️/♦️/♥️/♠️/NT         |       | [Multi-Landy](#multi-landy)                                  |
 | ...      |                     |       |                                                              |
+| 2♥️/♠️     |                     |       |                                                              |
+|          | X                   |       | [Take-out double](#take-out-double), 2- in suite (or Power double, 16+ HCP).<br />[Lebensohl](#lebensohl) responses by partner apply. |
+|          |                     |       |                                                              |
 
 ## Doubles
 
@@ -360,6 +363,28 @@ A double jump-shift response to 1♥️/♠️ shows 4+ fit and shortness (1-) i
 #### Drury
 
 [TODO]
+
+#### Lebensohl
+
+Lebensohl is a way to describe the strength of a non-passed hand in the following scenarios:
+
+- after 1NT by partner and 2♦️/♥️/♠️ overcall by opponent.
+
+- after weak 2♦️/♥️/♠️ by opponent and double by partner.
+
+With a minimum hand bid 2NT<sup>A RF</sup>, to which partner always responds with 3♣️<sup>A</sup>. Pass with clubs in hand, or pick a proper suit at level 3.
+
+With an invitation hand bid a suit at level 3.
+
+Holding enough for a game, make a cue-bid, bid 2NT->3NT or an immediate 3NT.
+
+| Bid                         | HCP  | Description                                     |
+| --------------------------- | ---- | ----------------------------------------------- |
+| 2NT<sup>A RF</sup>          | 0-7  | Minimum.                                        |
+| 2NT<sup>A RF</sup> then 3NT | 12+  | Stopper in opponent's suit                      |
+| suit at level 3             | 8-11 | Invite                                          |
+| cue-bid<sup>A GF</sup>      | 12+  | No stopper in opponents' suit. 4+ major suit    |
+| 3NT<sup>A GF</sup>          | 12+  | No stopper in opponents' suit. No 4+ major suit |
 
 #### Jacoby 2NT
 
