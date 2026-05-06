@@ -42,17 +42,17 @@
 
 #### HCP
 
-High Card Points. A=4, K=3, Q=2, J=1
+High Card Points. A=4, K=3, Q=2, J=1 [↑](#bidding-cheat-sheet)
 
 #### LSDP
 
 Long Suit Distribution Points. LSDP for a given suit is defined as suit length minus 4. Those are then summed for all suits in player's hand.
 
-*Example:* 6-5-1-1 hand will have an LSDP of 3.
+*Example:* 6-5-1-1 hand will have an LSDP of 3. [↑](#bidding-cheat-sheet)
 
 #### SSDP
 
-Short Suit Distribution Points. Only used after a fit is found.
+Short Suit Distribution Points. Only used after a fit is found. [↑](#bidding-cheat-sheet)
 
 | Suit Length   | SSDP |
 | ------------- | ---- |
@@ -68,7 +68,7 @@ TP = HCP + LSDP. Applicable when no fit exists, or it's not found yet)
 
 TP = HCP + SSDP. Only applicable after a fit is found.
 
-Do not combine SSDP and LSDP.
+Do not combine SSDP and LSDP. [↑](#bidding-cheat-sheet)
 
 #### Advisory HCP and TP levels for Game and Slam
 
@@ -80,9 +80,7 @@ Do not combine SSDP and LSDP.
 
 - 33+ HCP = 6NT
 
-- 37+ HCP = 7NT
-
-  
+- 37+ HCP = 7NT [↑](#bidding-cheat-sheet)
 
 ## Constructive bidding
 
@@ -91,7 +89,7 @@ Do not combine SSDP and LSDP.
 - Prioritize majors (♥️/♠️) over minors (♣️/♦️).
 
 - Prioritize playing NT contract with a balanced distribution in both hands, even when fit is found.
-- Mind vulnerability
+- Mind vulnerability [↑](#bidding-cheat-sheet)
 
 ### Opening bids
 
@@ -111,7 +109,7 @@ Opening bid is the very first non-pass bid in the auction.
 | 3♣️/♦️/♥️/♠️              | 6–10  | 7 card suit                                                  |
 | 3NT<sup>A</sup>       | 9-15  | [Gambling](#gambling). AKQxxxx (7+) in ♣️/♦️. No outside A or K |
 | 4♣️/♦️/♥️/♠️              | 5–10  | Preempt, 8 card suit                                         |
-| 5♣️/♦️<sup>NONVUL</sup> | 0–10  | Preempt, 9 card suit                                         |
+| 5♣️/♦️<sup>NONVUL</sup> | 0–10  | Preempt, 9 card suit [↑](#bidding-cheat-sheet)               |
 
 - Bids marked with <sup>A</sup> shall be alerted.
 
@@ -121,11 +119,11 @@ Opening bid is the very first non-pass bid in the auction.
 
 - <sup>NONVUL</sup> denotes a bid that is only recommended when non-vulnerable. When vulnerable, bid at a lower level.
 
-- When more than one bid is possible according to the table, the lowermost such row must be chosen. Examples: prioritize 1NT over 1♥️/♠️ if both are possible. Prioritize 1♥️/♠️ over 1♦️.
+- When more than one bid is possible according to the table, the lowermost such row must be chosen. Examples: prioritize 1NT over 1♥️/♠️ if both are possible. Prioritize 1♥️/♠️ over 1♦️. [↑](#bidding-cheat-sheet)
 
 ### Opening bids with a NT hand
 
-With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show HCP holdings. This may take either one or two bids, as described:
+With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show HCP holdings. This may take either one or two bids, as described: [↑](#bidding-cheat-sheet)
 
 | Bid                            | HCP   |
 | ------------------------------ | ----- |
@@ -138,12 +136,12 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 ### Responses
 
 - Most responses are only applicable in case of an unopposed bidding.
-- <sup>PASSED</sup> denotes a hand that's already been passed once, making it HCP-restricted. This may result in the same response meaning different things for a passed hand, compared to a non-passed one.
+- <sup>PASSED</sup> denotes a hand that's already been passed once, making it HCP-restricted. This may result in the same response meaning different things for a passed hand, compared to a non-passed one. [↑](#bidding-cheat-sheet)
 
 
 | Opening Bid | Response              | HCP            | Description                                                  |
 | ----------- | --------------------- | -------------- | ------------------------------------------------------------ |
-| 1♣️          |                       |                |                                                              |
+| 1♣️          |                       |                | #bidding-cheat-sheet)                                        |
 |             | PASS                  | 0-5            |                                                              |
 |             | 1♦️/♥️/♠️<sup>RF</sup>   | 6+             | 4+♦️/♥️/♠️. Bid longest suit first. With 4-4 bid lower, with 5-5 higher. Prioritize over fitting partner in minor. |
 |             | 1NT                   | 6-9            | no 4+ major                                                  |
@@ -152,7 +150,7 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 |             | 2NT                   | 10-11          | no 4+ major                                                  |
 |             | 3♣️                    | 0-6            | Preempt                                                      |
 |             | 3NT                   | 13+            | Balanced, no 4+ major                                        |
-|             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest                       |
+|             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest [↑](#bidding-cheat-sheet) |
 | 1♦️          |                       |                |                                                              |
 |             | PASS                  | 0-5            |                                                              |
 |             | 1♥️/♠️<sup>RF</sup>     | 6+             | 4+♥️/♠️. Bid longer suit first. With 4-4 bid lower, with 5-5 higher.<br />Prioritize over fitting partner in minor. |
@@ -164,7 +162,7 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 |             | 2NT                   | 10-11          | no 4+ major                                                  |
 |             | 3♦️                    | 0-6            |                                                              |
 |             | 3NT                   | 13+            | Balanced, no 4+ major                                        |
-|             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest                       |
+|             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest [↑](#bidding-cheat-sheet) |
 | 1♥️          |                       |                |                                                              |
 |             | PASS                  | 0-5            |                                                              |
 |             | 1♠️<sup>RF</sup>       | 6+             | 4+♠️                                                          |
@@ -177,8 +175,8 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 |             | <sup>PASSED</sup> 3♥️  | 10-11          | Game invite. 3+♥️.                                            |
 |             | 3♠️<sup>GF</sup>       | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
 |             | 4♣️/♦️<sup>GF</sup>     | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
-|             | 4♥️                    | 0-             | 5+♥️                                                          |
-| 1♠️          |                       |                |                                                              |
+|             | 4♥️                    | 0-             | 5+♥️ [↑](#bidding-cheat-sheet)                                |
+| 1♠️          |                       |                | [↑](#bidding-cheat-sheet)                                    |
 |             | PASS                  | 0-5            |                                                              |
 |             | 1NT<sup>RF</sup>      | 6+             | 3-♠️                                                          |
 |             | <sup>PASSED</sup> 2♣️  | 10-11          | [Drury](#drury). 3+♠️                                         |
@@ -189,43 +187,43 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 |             | 2NT<sup>GF</sup>      | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♠️                               |
 |             | <sup>PASSED</sup> 3♠️  | 10-11          | Game invite. 3+♠️.                                            |
 |             | 4♣️/♦️/♥️<sup>GF</sup>   | 11-14          | [Splinter](#splinter). 4+♠️, 1- in bid suit                   |
-|             | 4♠️                    | 0+             | 5+♠️                                                          |
+|             | 4♠️                    | 0+             | 5+♠️ [↑](#bidding-cheat-sheet)                                |
 | 1NT         |                       |                |                                                              |
 |             | PASS                  | 0-6            |                                                              |
 |             | 2♣️                    | 7+             | [Stayman](#stayman). Exploring for 4-4 major fit.            |
 |             | 2♦️/♥️/♠️/NT             | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️/♦️                            |
 |             | 3NT                   | 10-16          | Balanced                                                     |
 |             | 4♣️                    | 12+            | [Gerber](#gerber)                                            |
-|             | 4♦️/♥️<sup>GF</sup>     | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
+|             | 4♦️/♥️<sup>GF</sup>     | 10+            | [Texas transfer](#texas-transfer). 6+ ♥️/♠️ [↑](#bidding-cheat-sheet) |
 | 2♣️          |                       |                |                                                              |
 |             | 2♦️                    | 0-7            | A = 2 controls, K = 1 Control.<br />Up to 2 controls         |
 |             | 2♥️<sup>GF</sup>       | 8+             | Exactly 2 controls                                           |
 |             | 2♠️<sup>GF</sup>       | 8+             | Exactly 3 controls                                           |
 |             | 2NT<sup>GF</sup>      | 8+             | Exactly 4 controls                                           |
 | 2♦️          |                       |                |                                                              |
-|             | 2♥️/♠️                  | 0+             | Better major                                                 |
+|             | 2♥️/♠️                  | 0+             | Better major [↑](#bidding-cheat-sheet)                       |
 | 2♥️/♠️        |                       |                |                                                              |
 |             | 2NT<sup>A RF</sup>    | 17+            | Asks partner to either show an outside Ace or King, or signoff. |
 |             | New suit<sup>RF</sup> | 16+            | 6+ suit or 5+ suit very strong                               |
 |             | 3♥️/♠️                  | 6-9            | 2+ fit. Preempt.                                             |
 |             | 3NT                   | 16+            | Stoppers in all other suits                                  |
-|             | 4♥️/♠️                  | 6-9 **or** 16+ | 6-9+ HCP and 4+ fit **or** 16+ HCP and 2+ fit                |
+|             | 4♥️/♠️                  | 6-9 **or** 16+ | 6-9+ HCP and 4+ fit **or** 16+ HCP and 2+ fit [↑](#bidding-cheat-sheet) |
 | 2NT         |                       |                |                                                              |
 |             | 3♣️                    | 4+             | Puppet Stayman. Exploring for 4-4 and 5-3 major fit          |
 |             | 3♦️/♥️/♠️                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️                              |
 |             | 3NT                   | 4-8            | No interest in finding a major fit (4-3-2-2)                 |
 |             | 4♣️                    | 12+            | [Gerber](#gerber)                                            |
 |             | 4♦️/♥️<sup>GF</sup>     | 5+             | [Texas transfer](#texas-transfer). 6+ ♥️/♠️                    |
-|             | 4NT                   | 11-12          | Quantitative invite to 6NT                                   |
+|             | 4NT                   | 11-12          | Quantitative invite to 6NT [↑](#bidding-cheat-sheet)         |
 |             |                       |                |                                                              |
 
 ### [TODO] Re-announces by Opener
 
-...
+... [↑](#bidding-cheat-sheet)
 
 ### [TODO] Slam exploration
 
-...
+... [↑](#bidding-cheat-sheet)
 
 ## [TODO] Overcalls (competitive bidding)
 
@@ -248,14 +246,14 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 |          | 2♣️/♦️/♥️/♠️/NT         |       | [Multi-Landy](#multi-landy)                                  |
 | ...      |                     |       |                                                              |
 | 2♥️/♠️     |                     |       |                                                              |
-|          | X                   |       | [Take-out double](#take-out-double), 2- in suite (or Power double, 16+ HCP).<br />[Lebensohl](#lebensohl) responses by partner apply. |
+|          | X                   |       | [Take-out double](#take-out-double), 2- in suite (or Power double, 16+ HCP).<br />[Lebensohl](#lebensohl) responses by partner apply. [↑](#bidding-cheat-sheet) |
 |          |                     |       |                                                              |
 
 ## Doubles
 
 - All doubles up to 3♠️ are round forcing <sup>RF</sup>.
 
-- Any double coming as a first bid by the player is also round forcing <sup>RF</sup>.
+- Any double coming as a first bid by the player is also round forcing <sup>RF</sup>. [↑](#bidding-cheat-sheet)
 
 #### Take-out double
 
@@ -263,7 +261,7 @@ With a balanced or semi-balanced hand (4-3-3-3 or 5-3-3-2), the aim is to show H
 
 May later turn out to be a [Power double](#power-double).
 
-Responses to take-out double up to level 2:
+Responses to take-out double up to level 2: [↑](#bidding-cheat-sheet)
 
 | Partner | Responder                         | Description                                                  |
 | ------- | :-------------------------------- | :----------------------------------------------------------- |
@@ -274,7 +272,7 @@ Responses to take-out double up to level 2:
 |         | NT, jump                          | 10-12 HCP if 2NT, Invite.                                    |
 |         | 3NT                               | 13+ HCP. To play.                                            |
 |         | Cue bid, non-jump <sup>A RF</sup> | 10+ HCP.                                                     |
-|         | Cue bid, jump<sup>A RF</sup>      | 13+ HCP, no stopper in doubled suit. Asking partner to bid 3NT with a stopper |
+|         | Cue bid, jump<sup>A RF</sup>      | 13+ HCP, no stopper in doubled suit. Asking partner to bid 3NT with a stopper [↑](#bidding-cheat-sheet) |
 
 #### Balancing double
 
@@ -282,29 +280,29 @@ Only used by 4th seat player to prevent opponents from playing too low. 10+ HCP<
 
 Most frequently used when opponent's suit is passed at level 1.
 
-Also possible by a previously passed hand<sup>PASSED</sup> at level 2 when partner has shown a higher suit than opponent's.
+Also possible by a previously passed hand<sup>PASSED</sup> at level 2 when partner has shown a higher suit than opponent's. [↑](#bidding-cheat-sheet)
 
 #### Negative double
 
 6+ HCP. Over 1 from partner and 1 overcall from opponent, shows exactly 4 cards in all unbid majors. Might have a 5-card ♥️only in 1♣️/♦️ - 1♠️ scenario with 9- HCP, since bidding 2♥️ requires 10HCP.
 
-May later turn out to be a [Power double](#power-double).
+May later turn out to be a [Power double](#power-double). [↑](#bidding-cheat-sheet)
 
 #### Power double
 
-16+ HCP. Any take-out, balancing or negative double can transform into a power double if the player bids again (incl. a second double). Showing a power-double invalidates any previous assumptions for hand's distribution.
+16+ HCP. Any take-out, balancing or negative double can transform into a power double if the player bids again (incl. a second double). Showing a power-double invalidates any previous assumptions for hand's distribution. [↑](#bidding-cheat-sheet)
 
 #### Penalty double
 
 A penalty double shows enough values and distribution to fail the contract. Penalty doubles are only used at 3NT and above (this doesn't necessarily mean that all doubles 4♣️ and above are for penalty).
 
-Responder may also transform any take-out or power double into penalty double, when at level 3+ (preferably 4+) by passing.
+Responder may also transform any take-out or power double into penalty double, when at level 3+ (preferably 4+) by passing. [↑](#bidding-cheat-sheet)
 
 ## Conventions
 
 #### Stayman
 
-After 1NT - 2♣️, opener's rebids are as follows:
+After 1NT - 2♣️, opener's rebids are as follows: [↑](#bidding-cheat-sheet)
 
 | Strong hand (1NT-2♦️) | Weak hand (2♣️)        | Description                |
 | :------------------- | --------------------- | :------------------------- |
@@ -318,12 +316,12 @@ After 1NT - 2♣️, opener's rebids are as follows:
 |                      | 3NT                   | 10+ HCP, 3-♥️, 3-♠️          |
 | 2♠️                   |                       | 4+♠️ 3-♥️                    |
 |                      | 2NT                   | Invite. 8-9HCP             |
-|                      | 3NT                   | 10+ HCP, 4-♥️, 3-♠️          |
+|                      | 3NT                   | 10+ HCP, 4-♥️, 3-♠️ [↑](#bidding-cheat-sheet) |
 
 #### Smolen
 
 Convention is used after [Stayman](#stayman), only when holding enough values for a game and two major suits (5-4 or 6-4).
-After 1NT - 2♣️ - 2♦️, with 10+ HCP responder shows 5-4 in majors by bidding the four-card major with a jump-shift, effectively promising 5 in the other one. In case of a 6-4 in majors, responder makes a transfer at level 4. 
+After 1NT - 2♣️ - 2♦️, with 10+ HCP responder shows 5-4 in majors by bidding the four-card major with a jump-shift, effectively promising 5 in the other one. In case of a 6-4 in majors, responder makes a transfer at level 4. ↑](#bidding-cheat-sheet)
 
 | Weak Hand (2♣️)    | Strong Hand (1NT-2♦️) | Description              |
 | :---------------- | -------------------- | :----------------------- |
@@ -350,7 +348,7 @@ After 1NT, responder shows a 5+ suite and asks opener to bid it.
 |        | 2♠️        | 5+♣️         |
 |        | 2NT       | 5+♦️         |
 
-Opener then completes the transfer at level 2 (default), or at level 3 (invite) when holding 17 HCP and 4+ fit. Responder raises to game when holding enough values.
+Opener then completes the transfer at level 2 (default), or at level 3 (invite) when holding 17 HCP and 4+ fit. Responder raises to game when holding enough values. [↑](#bidding-cheat-sheet)
 
 #### Texas transfer
 
@@ -362,13 +360,13 @@ After 1NT, responder shows a 6+ major suite and asks opener to bid it.
 |        | 4♦️<sup>A GF</sup> | 6+ ♥️        |
 |        | 4♥️<sup>A GF</sup> | 6+ ♠️        |
 
-Opener then completes the transfer at level 4 or initiates [slam exploration](#slam-exploration).
+Opener then completes the transfer at level 4 or initiates [slam exploration](#slam-exploration). [↑](#bidding-cheat-sheet)
 
 #### Puppet Stayman
 
 After a 2NT opening, responder will often find themselves holding enough values for game.
 In such cases responder shall bid 3♣️<sup>A GF</sup>, thus initiating the puppet.
-Auction proceeds with an attempt to find a major fit (5-3 or 4-4) and have a Game declared by the strong hand:
+Auction proceeds with an attempt to find a major fit (5-3 or 4-4) and have a Game declared by the strong hand: [↑](#bidding-cheat-sheet)
 
 | Strong Hand (2NT) | Weak Hand (3♣️) | Strong Hand (2NT) | Description                                                  |
 | :---------------- | -------------- | ----------------- | :----------------------------------------------------------- |
@@ -381,26 +379,26 @@ Auction proceeds with an attempt to find a major fit (5-3 or 4-4) and have a Gam
 | 3♥️/♠️              |                |                   | 5+♥️                                                          |
 |                   | 3NT            |                   | No fit                                                       |
 |                   | 4♥️/♠️           |                   | Fit                                                          |
-| 3NT               |                |                   | 3-♥️, 3-♠️                                                     |
+| 3NT               |                |                   | 3-♥️, 3-♠️ [↑](#bidding-cheat-sheet)                           |
 
 #### Splinter
 
-A double jump-shift response to 1♥️/♠️ shows 4+ fit and shortness (1-) in bid suit. Always a game forcing <sup>GF</sup>
+A double jump-shift response to 1♥️/♠️ shows 4+ fit and shortness (1-) in bid suit. Always a game forcing <sup>GF</sup>.  [↑](#bidding-cheat-sheet)
 
-| Opening Bid | Response        | Description |
-| ----------- | --------------- | ----------- |
-| 1♥️          |                 |             |
-|             | 3♠️<sup>GF</sup> | 4+♥️, 1-♠️    |
-|             | 4♣️<sup>GF</sup> | 4+♥️, 1-♣️    |
-|             | 4♦️<sup>GF</sup> | 4+♥️, 1-♦️    |
-| 1♠️          |                 |             |
-|             | 4♣️<sup>GF</sup> | 4+♠️, 1-♣️    |
-|             | 4♦️<sup>GF</sup> | 4+♠️, 1-♦️    |
-|             | 4♥️<sup>GF</sup> | 4+♠️, 1-♥️    |
+| Opening Bid | Response        | Description                        |
+| ----------- | --------------- | ---------------------------------- |
+| 1♥️          |                 |                                    |
+|             | 3♠️<sup>GF</sup> | 4+♥️, 1-♠️                           |
+|             | 4♣️<sup>GF</sup> | 4+♥️, 1-♣️                           |
+|             | 4♦️<sup>GF</sup> | 4+♥️, 1-♦️                           |
+| 1♠️          |                 |                                    |
+|             | 4♣️<sup>GF</sup> | 4+♠️, 1-♣️                           |
+|             | 4♦️<sup>GF</sup> | 4+♠️, 1-♦️                           |
+|             | 4♥️<sup>GF</sup> | 4+♠️, 1-♥️ [↑](#bidding-cheat-sheet) |
 
 #### Drury
 
-[TODO]
+[TODO] [↑](#bidding-cheat-sheet)
 
 #### Lebensohl
 
@@ -414,19 +412,19 @@ With a minimum hand bid 2NT<sup>A RF</sup>, to which partner always responds wit
 
 With an invitation hand bid a suit at level 3.
 
-Holding enough for a game, make a cue-bid, bid 2NT->3NT or an immediate 3NT.
+Holding enough for a game, make a cue-bid, bid 2NT->3NT or an immediate 3NT. [↑](#bidding-cheat-sheet)
 
-| Bid                         | HCP  | Description                                     |
-| --------------------------- | ---- | ----------------------------------------------- |
-| 2NT<sup>A RF</sup>          | 0-7  | Minimum.                                        |
-| 2NT<sup>A RF</sup> then 3NT | 12+  | Stopper in opponent's suit                      |
-| suit at level 3             | 8-11 | Invite                                          |
-| cue-bid<sup>A GF</sup>      | 12+  | No stopper in opponents' suit. 4+ major suit    |
-| 3NT<sup>A GF</sup>          | 12+  | No stopper in opponents' suit. No 4+ major suit |
+| Bid                         | HCP  | Description                                                  |
+| --------------------------- | ---- | ------------------------------------------------------------ |
+| 2NT<sup>A RF</sup>          | 0-7  | Minimum.                                                     |
+| 2NT<sup>A RF</sup> then 3NT | 12+  | Stopper in opponent's suit                                   |
+| suit at level 3             | 8-11 | Invite                                                       |
+| cue-bid<sup>A GF</sup>      | 12+  | No stopper in opponents' suit. 4+ major suit                 |
+| 3NT<sup>A GF</sup>          | 12+  | No stopper in opponents' suit. No 4+ major suit [↑](#bidding-cheat-sheet) |
 
 #### Jacoby 2NT
 
-Over 1♥️/♠️ show 12HCP, 4+ fit by bidding 2NT<sup>A GF</sup>. Game forcing.
+Over 1♥️/♠️ show 12HCP, 4+ fit by bidding 2NT<sup>A GF</sup>. Game forcing. [↑](#bidding-cheat-sheet)
 
 #### Gambling
 
@@ -436,41 +434,41 @@ If partner already passed, bid may be done with 21- HCP.
 
 #### RKCB
 
-Roman Key Card Blackwood. Used when partners agreed to a trump suit and is interested in slam. 4NT<sup>A RF</sup> bids asks partner how many key cards he holds. Key cards consist of all Aces plus the King of trumps. Responses:
+Roman Key Card Blackwood. Used when partners agreed to a trump suit and is interested in slam. 4NT<sup>A RF</sup> bids asks partner how many key cards he holds. Key cards consist of all Aces plus the King of trumps. Responses: [↑](#bidding-cheat-sheet)
 
-| Asking bid         | Response       | Description                           |
-| ------------------ | -------------- | ------------------------------------- |
-| 4NT<sup>A RF</sup> |                |                                       |
-|                    | 5♣️<sup>A</sup> | 0 or 3 key cards                      |
-|                    | 5♦️<sup>A</sup> | 1 or 4 key cards                      |
-|                    | 5♥️<sup>A</sup> | 2 or 5 key cards. No Q in trump suit  |
-|                    | 5♠️<sup>A</sup> | 2 or 5 key cards. Has Q in trump suit |
+| Asking bid         | Response       | Description                                                  |
+| ------------------ | -------------- | ------------------------------------------------------------ |
+| 4NT<sup>A RF</sup> |                |                                                              |
+|                    | 5♣️<sup>A</sup> | 0 or 3 key cards                                             |
+|                    | 5♦️<sup>A</sup> | 1 or 4 key cards                                             |
+|                    | 5♥️<sup>A</sup> | 2 or 5 key cards. No Q in trump suit                         |
+|                    | 5♠️<sup>A</sup> | 2 or 5 key cards. Has Q in trump suit [↑](#bidding-cheat-sheet) |
 
 ##### Kings ask
 
-After any RKCB response, 5NT rebid asks for Kings. Partner then answers how many kings he holds:
+After any RKCB response, 5NT rebid asks for Kings. Partner then answers how many kings he holds: [↑](#bidding-cheat-sheet)
 
-| Asking bid         | Response       | Description     |
-| ------------------ | -------------- | --------------- |
-| 5NT<sup>A RF</sup> |                |                 |
-|                    | 6♣️<sup>A</sup> | 0 Kings in hand |
-|                    | 6♦️<sup>A</sup> | 1 King          |
-|                    | 6♥️<sup>A</sup> | 2 Kings         |
-|                    | 6♠️<sup>A</sup> | 3 Kings         |
+| Asking bid         | Response       | Description                       |
+| ------------------ | -------------- | --------------------------------- |
+| 5NT<sup>A RF</sup> |                |                                   |
+|                    | 6♣️<sup>A</sup> | 0 Kings in hand                   |
+|                    | 6♦️<sup>A</sup> | 1 King                            |
+|                    | 6♥️<sup>A</sup> | 2 Kings                           |
+|                    | 6♠️<sup>A</sup> | 3 Kings [↑](#bidding-cheat-sheet) |
 
 ##### Queen ask
 
-After a standard 0/3 or 1/4 response, the 4NT bidder may ask for Queen of trumps by bidding at the cheapest non-trump suit.
+After a standard 0/3 or 1/4 response, the 4NT bidder may ask for Queen of trumps by bidding at the cheapest non-trump suit.  [↑](#bidding-cheat-sheet)
 
-| Asking bid                                                   | Response                   | Description               |
-| ------------------------------------------------------------ | -------------------------- | ------------------------- |
-| Relay - any non-trump suite at the lowest possible level<sup>A RF</sup> | Trump suit<sup>A</sup>     | No Q                      |
-|                                                              | 5NT<sup>A</sup>            | Has Q, no side-suit K     |
-|                                                              | Non-trump suit<sup>A</sup> | Has Q, has K in that suit |
+| Asking bid                                                   | Response                   | Description                                         |
+| ------------------------------------------------------------ | -------------------------- | --------------------------------------------------- |
+| Relay - any non-trump suite at the lowest possible level<sup>A RF</sup> | Trump suit<sup>A</sup>     | No Q                                                |
+|                                                              | 5NT<sup>A</sup>            | Has Q, no side-suit K                               |
+|                                                              | Non-trump suit<sup>A</sup> | Has Q, has K in that suit [↑](#bidding-cheat-sheet) |
 
 #### Gerber
 
-Immediate 4♣️<sup>A GF</sup> as a response to a natural 1NT or 2NT opening. Asking for Aces. Responses<sup>A</sup> follow the pattern 04-1-2-3.
+Immediate 4♣️<sup>A GF</sup> as a response to a natural 1NT or 2NT opening. Asking for Aces. Responses<sup>A</sup> follow the pattern 04-1-2-3. [↑](#bidding-cheat-sheet)
 
 | Asking bid        | Response        | Description |
 | ----------------- | --------------- | ----------- |
@@ -480,13 +478,13 @@ Immediate 4♣️<sup>A GF</sup> as a response to a natural 1NT or 2NT opening. 
 |                   | 4♠️<sup>A</sup>  | 2 Aces      |
 |                   | 4NT<sup>A</sup> | 3 Aces      |
 
-Optional follow-up 5♣️<sup>A RF</sup> asking for Kings. Responses follow the same pattern: 04-1-2-3.
+Optional follow-up 5♣️<sup>A RF</sup> asking for Kings. Responses follow the same pattern: 04-1-2-3. [↑](#bidding-cheat-sheet)
 
 #### Multi-Landy
 
 Multi-Landy utilizes an artificial overcall bid at the 2nd level after opponents open 1NT.
 All bids are artificial and shall be alerted <sup>A</sup>.
-Overcalls and responses are described in the table:
+Overcalls and responses are described in the table: [↑](#bidding-cheat-sheet)
 
 | Overcall           | Description                 |
 | :----------------- | :-------------------------- |
