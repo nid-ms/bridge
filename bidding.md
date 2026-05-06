@@ -1,5 +1,43 @@
 # Bidding cheat-sheet
 
+## Contents
+
+- [Hand evaluation](#hand-evaluation)
+  - [HCP](#hcp)
+  - [LSDP](#lsdp)
+  - [SSDP](#ssdp)
+  - [TP](#tp)
+  - [Advisory HCP and TP levels for Game and Slam](#advisory-hcp-and-tp-levels-for-game-and-slam)
+- [Constructive bidding](#constructive-bidding)
+  - [Opening bids](#opening-bids)
+  - [Opening bids with a NT hand](#opening-bids-with-a-nt-hand)
+  - [Responses](#responses)
+  - [\[TODO\] Re-announces by Opener](re-announces-by-opener)
+  - [\[TODO\] Slam exploration](#slam-exploration)
+- [\[TODO\] Overcalls (competitive bidding)](#overcalls-competitive-bidding)
+- [Doubles](#doubles)
+  - [Take-out double](#take-out-double)
+  - [Balancing double](#balancing-double)
+  - [Negative double](#negative-double)
+  - [Power double](#power-double)
+  - [Penalty double](#penalty-double)
+- [Conventions](#conventions)
+  - [Stayman](#stayman)
+  - [Smolen](#smolen)
+  - [Transfer](#transfer)
+  - [Texas transfer](#texas-transfer)
+  - [Puppet Stayman](#puppet-stayman)
+  - [Splinter](#splinter)
+  - [Drury](#drury)
+  - [Lebensohl](#lebensohl)
+  - [Jacoby 2NT](#jacoby-2nt)
+  - [Gambling](#gambling)
+  - [RKCB](#rkcb)
+  - [Gerber](#gerber)
+  - [Multi-Landy](#multi-landy)
+
+---
+
 ## Hand evaluation
 
 #### HCP
