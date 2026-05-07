@@ -159,21 +159,21 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 |             | 1NT                   | 6-9            | no 4+ major                                                  |
 |             | 2♣️<sup>RF</sup>       | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
 |             | 2♦️/♥️/♠️                | 6-10           | 6+ suit. Preempt                                             |
-|             | 2NT                   | 10-11          | no 4+ major                                                  |
-|             | 3♣️                    | 0-6            | Preempt                                                      |
-|             | 3NT                   | 13+            | Balanced, no 4+ major                                        |
+|             | 2NT                   | 10-11          | 3-♥️, 3-♠️                                                     |
+|             | 3♣️                    | 0-6            | 5+♣️. Preempt                                                 |
+|             | 3NT                   | 13+            | Balanced, 3-♥️, 3-♠️                                           |
 |             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest [↑](#bidding-cheat-sheet) |
 | 1♦️          |                       |                |                                                              |
 |             | PASS                  | 0-5            |                                                              |
 |             | 1♥️/♠️<sup>RF</sup>     | 6+             | 4+♥️/♠️. Bid longer suit first. With 4-4 bid lower, with 5-5 higher.<br />Prioritize over fitting partner in minor. |
 |             | 1NT                   | 6-9            | no 4+ major                                                  |
 |             | <sup>PASSED</sup> 2♣️  | 4-11           | 6+♣️, 3-♥️, 3-♠️. Non-forcing                                   |
-|             | 2♣️<sup>GF</sup>       | 13+            | 4+♣️, no 4+♥️/♠️                                                |
-|             | 2♦️                    | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
+|             | 2♣️<sup>GF</sup>       | 13+            | 5+♣️, 3-♥️, 3-♠️                                                |
+|             | 2♦️                    | 10+            | Inverted minor: 5+♦️, 3-♥️, 3-♠️                                |
 |             | 2♥️/♠️                  | 6-10           | 6+ suit. Preempt                                             |
-|             | 2NT                   | 10-11          | no 4+ major                                                  |
+|             | 2NT                   | 10-11          | Balanced invite, 3-♥️, 3-♠️                                    |
 |             | 3♦️                    | 0-6            |                                                              |
-|             | 3NT                   | 13+            | Balanced, no 4+ major                                        |
+|             | 3NT                   | 13+            | Balanced, 3-♥️, 3-♠️                                           |
 |             | 4♥️/♠️                  |                | Unbalanced weak hand. No slam interest [↑](#bidding-cheat-sheet) |
 | 1♥️          |                       |                |                                                              |
 |             | PASS                  | 0-5            |                                                              |
@@ -183,12 +183,12 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 |             | 2♣️/♦️<sup>GF</sup>     | 12+            | 4+♣️/♦️                                                        |
 |             | 2♥️                    | 6-9            | 3+♥️                                                          |
 |             | <sup>PASSED</sup> 2NT | 10-11          | Game invite. 2-♥️ Stopers in ♣️♦️♠️                              |
-|             | 2NT<sup>GF</sup>      | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♥️.<br />Bid is not applicable for a passed hand. |
-|             | <sup>PASSED</sup> 3♥️  | 10-11          | Game invite. 3+♥️.                                            |
+|             | 2NT<sup>GF</sup>      | 12+            | [Jacoby 2NT](#jacoby-2nt). 4+♥️                               |
+|             | <sup>PASSED</sup> 3♥️  | 10-11          | Game invite. 3+♥️                                             |
 |             | 3♠️<sup>GF</sup>       | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
 |             | 4♣️/♦️<sup>GF</sup>     | 11-14          | [Splinter](#splinter). 4+♥️, 1- in bid suit                   |
 |             | 4♥️                    | 0-9            | 5+♥️ [↑](#bidding-cheat-sheet)                                |
-| 1♠️          |                       |                | [↑](#bidding-cheat-sheet)                                    |
+| 1♠️          |                       |                |                                                              |
 |             | PASS                  | 0-5            |                                                              |
 |             | 1NT<sup>RF</sup>      | 6+             | 3-♠️                                                          |
 |             | <sup>PASSED</sup> 2♣️  | 10-11          | [Drury](#drury). 3+♠️                                         |
@@ -221,7 +221,7 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 |             | 3NT                   | 16+            | Stoppers in all other suits                                  |
 |             | 4♥️/♠️                  | 6-9 **or** 16+ | 6-9+ HCP and 4+ fit **or** 16+ HCP and 2+ fit [↑](#bidding-cheat-sheet) |
 | 2NT         |                       |                |                                                              |
-|             | 3♣️                    | 4+             | Puppet Stayman. Exploring for 4-4 and 5-3 major fit          |
+|             | 3♣️                    | 4+             | [Puppet Stayman](#puppet-stayman)                            |
 |             | 3♦️/♥️/♠️                | 0+             | [Transfer](#transfer). 5+ ♥️/♠️/♣️                              |
 |             | 3NT                   | 4-8            | To play                                                      |
 |             | 4♣️                    | 12+            | [Gerber](#gerber)                                            |
@@ -496,7 +496,7 @@ Optional follow-up 5♣️<sup>A RF</sup> asking for Kings. Responses follow th
 
 Multi-Landy utilizes an artificial overcall bid at the 2nd level after opponents open 1NT.
 All bids are artificial and shall be alerted <sup>A</sup>.
-Overcalls and responses are described in the table: [↑](#bidding-cheat-sheet)
+Overcalls are described in the table: [↑](#bidding-cheat-sheet)
 
 | Overcall           | Description                 |
 | :----------------- | :-------------------------- |
@@ -505,3 +505,29 @@ Overcalls and responses are described in the table: [↑](#bidding-cheat-sheet)
 | 2♥️ <sup>A</sup>    | 5+♥️ and 4+ minor            |
 | 2♠️ <sup>A</sup>    | 5+♠️ and 4+ minor            |
 | 2NT<sup>A RF</sup> | 5+♣️ and 5+♦️                 |
+
+Responses:
+
+| Overcall           | Response                | Description                                         |
+| :----------------- | ----------------------- | :-------------------------------------------------- |
+| 2♣️ <sup>A RF</sup> |                         |                                                     |
+|                    | Pass                    | Good 6+♣️, non-forcing                               |
+|                    | 2♦️                      | Equal length in majors. Asks partner to pick        |
+|                    | 2♥️/♠️                    | Sign-off, to play                                   |
+|                    | 3NT♠️                    | To play                                             |
+|                    | 4♣️/♦️                    | Transfer for ♥️/♠️                                    |
+| 2♦️ <sup>A RF</sup> |                         |                                                     |
+|                    | 2♥️                      | Partner to pass or correct to 2♠️                    |
+|                    | 2♠️                      | Partner to pass or correct to 3♥️                    |
+| 2♥️/♠️ <sup>A</sup>  |                         |                                                     |
+|                    | Pass                    | To play                                             |
+|                    | 2NT                     | No support for major, asks partner to bid his minor |
+|                    | 3♥️/♠️ (same suit)        | 3+ in suit, preempt                                 |
+|                    | 3♣️/♦️/♥️/♠️ (another suit) | Good 6+ suit, no support, not forcing               |
+|                    | 2NT                     | No support for major, asks partner to bid his minor |
+|                    | 3NT                     | To play                                             |
+| 2NT<sup>A RF</sup> |                         | 5+♣️ and 5+♦️                                         |
+|                    | Any response at level 3 | To play                                             |
+|                    | 4♣️/♦️                    | Invite for 5♣️/♦️                                     |
+|                    | 4♥️/♠️                    | To play [↑](#bidding-cheat-sheet)                   |
+
