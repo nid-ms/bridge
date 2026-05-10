@@ -12,8 +12,8 @@
   - [Opening bids](#opening-bids)
   - [Opening bids with a NT hand](#opening-bids-with-a-nt-hand)
   - [Responses](#responses)
-  - [\[TODO\] Re-announces by Opener](re-announces-by-opener)
-  - [\[TODO\] Slam exploration](#slam-exploration)
+  - [Re-announces by opener](#re-announces-by-opener)
+  - [Slam exploration](#slam-exploration)
 - [\[TODO\] Overcalls (competitive bidding)](#overcalls-competitive-bidding)
 - [Doubles](#doubles)
   - [Take-out double](#take-out-double)
@@ -29,6 +29,7 @@
   - [Transfer](#transfer)
   - [Texas transfer](#texas-transfer)
   - [Puppet Stayman](#puppet-stayman)
+  - [Reverse](#reverse)
   - [Splinter](#splinter)
   - [Drury](#drury)
   - [Lebensohl](#lebensohl)
@@ -82,15 +83,15 @@ Do not combine SSDP and LSDP. [↑](#contents)
 
 #### Advisory TP levels for game and slam
 
-- 25+ TP = 3NT
-
-- 26+ TP = 4♥️/♠️
-
-- 28+ TP = 5♣️/♦️
-
-- 33+ TP = 6♣️/♦️/♥️/♠️/NT
-
-- 37+ TP = 7NT [↑](#contents)
+| Contract | TP needed to make  |
+| -------- | ------------------ |
+| 3NT      | 25+                |
+| 4♥️/♠️     | 26+                |
+| 5♣️/♦️     | 28+                |
+| 6♣️/♦️/♥️/♠️ | 31+                |
+| 6NT      | 33+                |
+| 7♣️/♦️/♥️/♠️ | 35+                |
+| 7NT      | 37+ [↑](#contents) |
 
 ## Constructive bidding
 
@@ -119,7 +120,7 @@ Opening bid is the very first non-pass bid in the auction.
 | 3♣️/♦️/♥️/♠️              | 6–10  | 7 card suit                                                  |
 | 3NT<sup>A</sup>       | 9-15  | [Gambling](#gambling). AKQxxxx (7+) in ♣️/♦️. No outside A or K |
 | 4♣️/♦️/♥️/♠️              | 5–10  | Preempt, 8 card suit                                         |
-| 5♣️/♦️<sup>NONVUL</sup> | 0–10  | Preempt, 9 card suit [↑](#contents)               |
+| 5♣️/♦️<sup>NONVUL</sup> | 0–10  | Preempt, 9 card suit [↑](#contents)                          |
 
 - Bids marked with <sup>A</sup> shall be alerted.
 
@@ -162,8 +163,8 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 | 1♣️          |                                     |                |                                                              |
 |             | PASS                                | 0-5            |                                                              |
 |             | 1♦️/♥️/♠️<sup>RF</sup>                 | 6+             | 4+♦️/♥️/♠️. Bid longest suit first. With 4-4 bid lower, with 5-5 higher. Prioritize over fitting partner in minor. |
-|             | 1NT                                 | 6-9            | no 4+ major                                                  |
-|             | 2♣️<sup>RF</sup>                     | 10+            | Inverted minor: 5+ suit, no 4+♥️/4+♠️                          |
+|             | 1NT                                 | 6-9            | 3-♥️, 3-♠️                                                     |
+|             | 2♣️<sup>RF</sup>                     | 10+            | Inverted minor: 5+♣️, 3-♥️, 3-♠️                                |
 |             | 2♦️/♥️/♠️                              | 6-10           | 6+ suit. Preempt                                             |
 |             | 2NT                                 | 10-11          | 3-♥️, 3-♠️                                                     |
 |             | 3♣️                                  | 0-6            | 5+♣️. Preempt                                                 |
@@ -172,7 +173,7 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 | 1♦️          |                                     |                |                                                              |
 |             | PASS                                | 0-5            |                                                              |
 |             | 1♥️/♠️<sup>RF</sup>                   | 6+             | 4+♥️/♠️. Bid longer suit first. With 4-4 bid lower, with 5-5 higher.<br />Prioritize over fitting partner in minor. |
-|             | 1NT                                 | 6-9            | no 4+ major                                                  |
+|             | 1NT                                 | 6-9            | 3-♥️, 3-♠️                                                     |
 |             | <sup>PASSED</sup> 2♣️                | 4-11           | 6+♣️, 3-♥️, 3-♠️. Non-forcing                                   |
 |             | 2♣️<sup>GF</sup>                     | 13+            | 5+♣️, 3-♥️, 3-♠️                                                |
 |             | 2♦️                                  | 10+            | Inverted minor: 5+♦️, 3-♥️, 3-♠️                                |
@@ -184,7 +185,7 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 | 1♥️          |                                     |                |                                                              |
 |             | PASS                                | 0-5            |                                                              |
 |             | 1♠️<sup>RF</sup>                     | 6+             | 4+♠️                                                          |
-|             | 1NT<sup>RF</sup>                    | 6-12           | 3-♠️                                                          |
+|             | 1NT<sup>RF</sup>                    | 6-11           | 3-♠️                                                          |
 |             | <sup>PASSED</sup> 2♣️<sup>A GF</sup> | 10-11          | [Drury](#drury). 3+♥️                                         |
 |             | 2♣️/♦️<sup>GF</sup>                   | 12+            | 4+♣️/♦️                                                        |
 |             | 2♥️                                  | 6-9            | 3+♥️                                                          |
@@ -196,7 +197,7 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 |             | 4♥️                                  | 0-9            | 5+♥️ [↑](#contents)                                           |
 | 1♠️          |                                     |                |                                                              |
 |             | PASS                                | 0-5            |                                                              |
-|             | 1NT<sup>RF</sup>                    | 6-12           | 3-♠️                                                          |
+|             | 1NT<sup>RF</sup>                    | 6-11           | 3-♠️                                                          |
 |             | <sup>PASSED</sup> 2♣️<sup>A GF</sup> | 10-11          | [Drury](#drury). 3+♠️                                         |
 |             | 2♣️/♦️<sup>GF</sup>                   | 12+            | 4+♣️/♦️                                                        |
 |             | 2♥️<sup>GF</sup>                     | 12+            | 5+♥️                                                          |
@@ -235,13 +236,24 @@ With a balanced or semi-balanced hand, the aim is to show HCP holdings. This may
 |             | 4NT                                 | 11-12          | Quantitative invite to 6NT [↑](#contents)                    |
 |             |                                     |                |                                                              |
 
-### [TODO] Re-announces by Opener
+### Re-announces by opener
 
-... [↑](#contents)
+- NT bids are non-forcing and show lack of support in responder's suit and some stoppers in unbid suits. 1NT shows 12-14 HCP. 2NT shows 18-19 HCP.
 
-### [TODO] Slam exploration
+- Re-bidding own suit without a jump shows extra length and is not forcing.
 
-... [↑](#contents)
+- Re-bidding own suit with a jump shows extra length and 16+ HCP. Round forcing.
+
+- Reverse shows a strong two-suited hand with 16+ HCP. Round forcing.
+- Any non-reverse new suit without is natural and round forcing. [↑](#contents)
+
+### Slam exploration
+
+- RKCB
+- Control bids
+- Exclusion Blackwood (Voidwood)
+- Quantitative invites
+- Gerber [↑](#contents)
 
 ## [TODO] Overcalls (competitive bidding)
 
@@ -332,37 +344,37 @@ Shows exactly 3 cards in partner's last bid suit, which has been overcalled by o
 
 After 1NT - 2♣️, opener's rebids are as follows: [↑](#contents)
 
-| Strong hand (1NT-2♦️) | Weak hand (2♣️)        | Description                |
-| :------------------- | --------------------- | :------------------------- |
-| 2♦️                   |                       | 3-♥️, 3-♠️                   |
-|                      | 2NT                   | Invite. 8-9HCP             |
+| Strong hand (1NT-2♦️) | Weak hand (2♣️)        | Description                           |
+| :------------------- | --------------------- | :------------------------------------ |
+| 2♦️                   |                       | 3-♥️, 3-♠️                              |
+|                      | 2NT                   | Invite. 8-9HCP                        |
 |                      | Color at level 3 or 4 | [Smolen](#smolen). 10+HCP. Unbalanced |
-|                      | 3NT                   | 10+ HCP, 4-♥️, 4-♠️          |
-| 2♥️                   |                       | 4♥️, may have 4♠️            |
-|                      | 2♠️                    | 4♠️                         |
-|                      | 2NT                   | Invite. 8-9HCP             |
-|                      | 3NT                   | 10+ HCP, 3-♥️, 3-♠️          |
-| 2♠️                   |                       | 4+♠️ 3-♥️                    |
-|                      | 2NT                   | Invite. 8-9HCP             |
-|                      | 3NT                   | 10+ HCP, 4-♥️, 3-♠️ [↑](#contents) |
+|                      | 3NT                   | 10+ HCP, 4-♥️, 4-♠️                     |
+| 2♥️                   |                       | 4♥️, may have 4♠️                       |
+|                      | 2♠️                    | 4♠️                                    |
+|                      | 2NT                   | Invite. 8-9HCP                        |
+|                      | 3NT                   | 10+ HCP, 3-♥️, 3-♠️                     |
+| 2♠️                   |                       | 4+♠️ 3-♥️                               |
+|                      | 2NT                   | Invite. 8-9HCP                        |
+|                      | 3NT                   | 10+ HCP, 4-♥️, 3-♠️ [↑](#contents)      |
 
 #### Smolen
 
-Convention is used after [Stayman](#stayman), only when holding enough values for a game and two major suits (5-4 or 6-4).
-After 1NT - 2♣️ - 2♦️, with 10+ HCP responder shows 5-4 in majors by bidding the four-card major with a jump-shift, effectively promising 5 in the other one. In case of a 6-4 in majors, responder makes a transfer at level 4. ↑](#contents)
+Convention is used after [Stayman](#stayman), only when opener denied a 4-card major and only when responder is holding enough values for a game and two major suits (5-4 or 6-4).
+After 1NT - 2♣️ - 2♦️, with 10+ HCP responder shows 5-4 in majors by bidding the four-card major with a jump-shift, effectively promising 5 cards in the other one. In case of a 6-4 in majors, responder makes a transfer at level 4. [↑](#contents)
 
-| Weak Hand (2♣️)    | Strong Hand (1NT-2♦️) | Description              |
-| :---------------- | -------------------- | :----------------------- |
-| 3♥️<sup>A GF</sup> |                      | 10+HCP. Promises 4♥️, 5♠️  |
-|                   | 3NT                  | 2-♠️                      |
-|                   | 4♠️                   | 3♠️                       |
-| 3♠️<sup>A GF</sup> |                      | 10+HCP. Promises  4♠️, 5♥️ |
-|                   | 3NT                  | 2-♥️                      |
-|                   | 4♥️                   | 3♥️                       |
-| 4♦️<sup>A GF</sup> |                      | 10+HCP. Transfer. 6♥️, 4♠️ |
-|                   | 4♥️                   | Completing the transfer  |
-| 4♥️<sup>A GF</sup> |                      | 10+HCP. Transfer. 6♠️, 4♥️ |
-|                   | 4♠️                   | Completing the transfer  |
+| Weak Hand (2♣️)    | Strong Hand (1NT-2♦️) | Description                            |
+| :---------------- | -------------------- | :------------------------------------- |
+| 3♥️<sup>A GF</sup> |                      | 10+HCP. Promises 4♥️, 5♠️                |
+|                   | 3NT                  | 2-♠️                                    |
+|                   | 4♠️                   | 3♠️                                     |
+| 3♠️<sup>A GF</sup> |                      | 10+HCP. Promises  4♠️, 5♥️               |
+|                   | 3NT                  | 2-♥️                                    |
+|                   | 4♥️                   | 3♥️                                     |
+| 4♦️<sup>A GF</sup> |                      | 10+HCP. Transfer. 6♥️, 4♠️               |
+|                   | 4♥️                   | Completing the transfer                |
+| 4♥️<sup>A GF</sup> |                      | 10+HCP. Transfer. 6♠️, 4♥️               |
+|                   | 4♠️                   | Completing the transfer [↑](#contents) |
 
 #### Transfer
 
@@ -407,21 +419,30 @@ Auction proceeds with an attempt to find a major fit (5-3 or 4-4) and have a Gam
 | 3♥️/♠️              |                |                   | 5+♥️                                                          |
 |                   | 3NT            |                   | No fit                                                       |
 |                   | 4♥️/♠️           |                   | Fit                                                          |
-| 3NT               |                |                   | 3-♥️, 3-♠️ [↑](#contents)                           |
+| 3NT               |                |                   | 3-♥️, 3-♠️ [↑](#contents)                                      |
+
+#### Reverse
+
+A new suit bid by the opener at level 2 and above is considered a reverse if it's above the level 2 bid of the original suit. It shows a strong hand with 16+ HCP and at least 5-4 distribution.
+
+*Example:*
+
+- 1♣️ - 1♠️ - 2♥️ shows 16+HCP, 5♣️, 4♥️
+- 1♥️ - 1NT - 2♠️ shows 16+HCP, 5♥️, 4♠️ [↑](#contents)
 
 #### Splinter
 
 A double jump-shift response to 1♥️/♠️ shows 4+ fit and shortness (1-) in bid suit. Always a game forcing <sup>GF</sup>.  [↑](#contents)
 
-| Opening Bid | Response        | Description                        |
-| ----------- | --------------- | ---------------------------------- |
-| 1♥️          |                 |                                    |
-|             | 3♠️<sup>GF</sup> | 4+♥️, 1-♠️                           |
-|             | 4♣️<sup>GF</sup> | 4+♥️, 1-♣️                           |
-|             | 4♦️<sup>GF</sup> | 4+♥️, 1-♦️                           |
-| 1♠️          |                 |                                    |
-|             | 4♣️<sup>GF</sup> | 4+♠️, 1-♣️                           |
-|             | 4♦️<sup>GF</sup> | 4+♠️, 1-♦️                           |
+| Opening Bid | Response        | Description             |
+| ----------- | --------------- | ----------------------- |
+| 1♥️          |                 |                         |
+|             | 3♠️<sup>GF</sup> | 4+♥️, 1-♠️                |
+|             | 4♣️<sup>GF</sup> | 4+♥️, 1-♣️                |
+|             | 4♦️<sup>GF</sup> | 4+♥️, 1-♦️                |
+| 1♠️          |                 |                         |
+|             | 4♣️<sup>GF</sup> | 4+♠️, 1-♣️                |
+|             | 4♦️<sup>GF</sup> | 4+♠️, 1-♦️                |
 |             | 4♥️<sup>GF</sup> | 4+♠️, 1-♥️ [↑](#contents) |
 
 #### Drury
@@ -473,34 +494,34 @@ If partner already passed, bid may be done with 21- HCP.
 
 Roman Key Card Blackwood. Used when partners agreed to a trump suit and is interested in slam. 4NT<sup>A RF</sup> bids asks partner how many key cards he holds. Key cards consist of all Aces plus the King of trumps. Responses: [↑](#contents)
 
-| Asking bid         | Response       | Description                                                  |
-| ------------------ | -------------- | ------------------------------------------------------------ |
-| 4NT<sup>A RF</sup> |                |                                                              |
-|                    | 5♣️<sup>A</sup> | 0 or 3 key cards                                             |
-|                    | 5♦️<sup>A</sup> | 1 or 4 key cards                                             |
-|                    | 5♥️<sup>A</sup> | 2 or 5 key cards. No Q in trump suit                         |
+| Asking bid         | Response       | Description                                          |
+| ------------------ | -------------- | ---------------------------------------------------- |
+| 4NT<sup>A RF</sup> |                |                                                      |
+|                    | 5♣️<sup>A</sup> | 0 or 3 key cards                                     |
+|                    | 5♦️<sup>A</sup> | 1 or 4 key cards                                     |
+|                    | 5♥️<sup>A</sup> | 2 or 5 key cards. No Q in trump suit                 |
 |                    | 5♠️<sup>A</sup> | 2 or 5 key cards. Has Q in trump suit [↑](#contents) |
 
 ##### Kings ask
 
 After any RKCB response, 5NT rebid asks for Kings. Partner then answers how many kings he holds: [↑](#contents)
 
-| Asking bid         | Response       | Description                       |
-| ------------------ | -------------- | --------------------------------- |
-| 5NT<sup>A RF</sup> |                |                                   |
-|                    | 6♣️<sup>A</sup> | 0 Kings in hand                   |
-|                    | 6♦️<sup>A</sup> | 1 King                            |
-|                    | 6♥️<sup>A</sup> | 2 Kings                           |
+| Asking bid         | Response       | Description            |
+| ------------------ | -------------- | ---------------------- |
+| 5NT<sup>A RF</sup> |                |                        |
+|                    | 6♣️<sup>A</sup> | 0 Kings in hand        |
+|                    | 6♦️<sup>A</sup> | 1 King                 |
+|                    | 6♥️<sup>A</sup> | 2 Kings                |
 |                    | 6♠️<sup>A</sup> | 3 Kings [↑](#contents) |
 
 ##### Queen ask
 
 After a standard 0/3 or 1/4 response, the 4NT bidder may ask for Queen of trumps by bidding at the cheapest non-trump suit.  [↑](#contents)
 
-| Asking bid                                                   | Response                   | Description                                         |
-| ------------------------------------------------------------ | -------------------------- | --------------------------------------------------- |
-| Relay - any non-trump suite at the lowest possible level<sup>A RF</sup> | Trump suit<sup>A</sup>     | No Q                                                |
-|                                                              | 5NT<sup>A</sup>            | Has Q, no side-suit K                               |
+| Asking bid                                                   | Response                   | Description                              |
+| ------------------------------------------------------------ | -------------------------- | ---------------------------------------- |
+| Relay - any non-trump suite at the lowest possible level<sup>A RF</sup> | Trump suit<sup>A</sup>     | No Q                                     |
+|                                                              | 5NT<sup>A</sup>            | Has Q, no side-suit K                    |
 |                                                              | Non-trump suit<sup>A</sup> | Has Q, has K in that suit [↑](#contents) |
 
 #### Gerber
@@ -554,18 +575,18 @@ Overcalls are described in the table: [↑](#contents)
 | 2NT<sup>A RF</sup> |                         | 5+♣️ and 5+♦️                                         |
 |                    | Any response at level 3 | To play                                             |
 |                    | 4♣️/♦️                    | Invite for 5♣️/♦️                                     |
-|                    | 4♥️/♠️                    | To play [↑](#contents)                   |
+|                    | 4♥️/♠️                    | To play [↑](#contents)                              |
 
 #### Fourth suit forcing
 
 Any fourth suit<sup>A RF</sup> bid at level 2 or above is an artificial game forcing, promising no values or length in that suit. Opener's next bid is a natural one, but shall stick to the following priority:
 
-| Priority | Bid                  | Description                               |
-| -------- | :------------------- | :---------------------------------------- |
-| Highest  | Raise partner's suit | 3 cards in suit                           |
-| ..       | Re-bid own suit      | 5 cards in suit                           |
-| ..       | NT with a jump       | Two stoppers in fourth suit               |
-| ..       | NT without a jump    | Stopper in fourth suit                    |
+| Priority | Bid                  | Description                    |
+| -------- | :------------------- | :----------------------------- |
+| Highest  | Raise partner's suit | 3 cards in suit                |
+| ..       | Re-bid own suit      | 5 cards in suit                |
+| ..       | NT with a jump       | Two stoppers in fourth suit    |
+| ..       | NT without a jump    | Stopper in fourth suit         |
 | Lowest   | Raise fourth suit    | 4 cards in suit [↑](#contents) |
 
 4SF does not apply in the following scenarios:
@@ -588,12 +609,12 @@ After 1m-1M-1NT, bidding the other minor is a round-forcing and shows at least i
 
 ##### Responses:
 
-| Priority | Opener's rebid             | Description                                            |
-| -------- | :------------------------- | :----------------------------------------------------- |
-| Highest  | New major (can only be ♥️)  | 4♥️                                                     |
-| ..       | Partner's major at level 2 | 3 cards in suit, min hand                              |
-| ..       | Partner's major at level 3 | 3 cards in suit, max hand                              |
-| ..       | 2NT                        | Stopper in fourth suit, min hand                       |
-| ..       | 3NT                        | Stopper in fourth suit, max hand                       |
-| ..       | Raise fourth suit          | 4 cards in suit                                        |
+| Priority | Opener's rebid             | Description                                 |
+| -------- | :------------------------- | :------------------------------------------ |
+| Highest  | New major (can only be ♥️)  | 4♥️                                          |
+| ..       | Partner's major at level 2 | 3 cards in suit, min hand                   |
+| ..       | Partner's major at level 3 | 3 cards in suit, max hand                   |
+| ..       | 2NT                        | Stopper in fourth suit, min hand            |
+| ..       | 3NT                        | Stopper in fourth suit, max hand            |
+| ..       | Raise fourth suit          | 4 cards in suit                             |
 | Lowest   | Rebid own suit             | If none of the above applies [↑](#contents) |
